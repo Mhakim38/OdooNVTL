@@ -1,0 +1,686 @@
+2025-08-21 17:12:28.871 +08 [22500] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:12:28.876 +08 [16700] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:12:28.876 +08 [49936] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:12:28.879 +08 [22428] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:12:28.879 +08 [21872] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:12:28.879 +08 [20012] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:12:28.879 +08 [22980] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:12:28.880 +08 [22428] LOG:  unexpected EOF on client connection with an open transaction
+2025-08-21 17:12:58.847 +08 [41500] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:12:58.849 +08 [34572] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:12:58.851 +08 [48960] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:12:58.851 +08 [26988] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:13:42.329 +08 [5124] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:13:42.331 +08 [49020] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:13:42.331 +08 [26020] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:13:42.332 +08 [16424] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:13:42.334 +08 [40020] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:13:42.335 +08 [27864] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:13:42.336 +08 [26092] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:17:35.215 +08 [13196] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:17:35.216 +08 [37984] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:17:35.218 +08 [29168] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:20:15.192 +08 [20852] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:20:15.192 +08 [20056] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:20:15.192 +08 [40336] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:20:15.193 +08 [20056] LOG:  unexpected EOF on client connection with an open transaction
+2025-08-21 17:20:15.193 +08 [24468] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:20:15.193 +08 [5116] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:20:15.195 +08 [29044] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:20:15.195 +08 [25684] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:20:21.722 +08 [33180] ERROR:  column res_partner.kastam_registration_number does not exist at character 1760
+2025-08-21 17:20:21.722 +08 [33180] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id", "res_partner"."kastam_registration_number", "res_partner"."expiry_date", "res_partner"."proposer_company", "res_partner"."proposer_name", "res_partner"."proposer_id_new", "res_partner"."seconder_company", "res_partner"."seconder_name", "res_partner"."seconder_id_new", "res_partner"."member_id_new", "res_partner"."shipping_agent", "res_partner"."forwarding_agents", "res_partner"."last_mile_delivery", "res_partner"."transport_operators", "res_partner"."freight_forwarding", "res_partner"."courier_services", "res_partner"."warehouse_operators", "res_partner"."combined_transport_operators", "res_partner"."nvocc", "res_partner"."ancillary_services", "res_partner"."member_type", "res_partner"."principal_id", "res_partner"."member_id_old", "res_partner"."proposer_id_old", "res_partner"."seconder_id_old", "res_partner"."applicant_name", "res_partner"."application_date", "res_partner"."membership_stages", "res_partner"."ncd", "res_partner"."member_date_start", "res_partner"."member_date_end" FROM "res_partner" WHERE ("res_partner"."id" IN (3))
+2025-08-21 17:20:22.527 +08 [33180] ERROR:  column res_partner.kastam_registration_number does not exist at character 1760
+2025-08-21 17:20:22.527 +08 [33180] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id", "res_partner"."kastam_registration_number", "res_partner"."expiry_date", "res_partner"."proposer_company", "res_partner"."proposer_name", "res_partner"."proposer_id_new", "res_partner"."seconder_company", "res_partner"."seconder_name", "res_partner"."seconder_id_new", "res_partner"."member_id_new", "res_partner"."shipping_agent", "res_partner"."forwarding_agents", "res_partner"."last_mile_delivery", "res_partner"."transport_operators", "res_partner"."freight_forwarding", "res_partner"."courier_services", "res_partner"."warehouse_operators", "res_partner"."combined_transport_operators", "res_partner"."nvocc", "res_partner"."ancillary_services", "res_partner"."member_type", "res_partner"."principal_id", "res_partner"."member_id_old", "res_partner"."proposer_id_old", "res_partner"."seconder_id_old", "res_partner"."applicant_name", "res_partner"."application_date", "res_partner"."membership_stages", "res_partner"."ncd", "res_partner"."member_date_start", "res_partner"."member_date_end" FROM "res_partner" WHERE ("res_partner"."id" IN (3))
+2025-08-21 17:20:22.531 +08 [33180] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2025-08-21 17:20:22.531 +08 [33180] STATEMENT:  SELECT "ir_ui_view"."id" FROM "ir_ui_view" WHERE (("ir_ui_view"."active" = true) AND ("ir_ui_view"."key" = 'http_routing.http_error')) ORDER BY "ir_ui_view"."priority"  , "ir_ui_view"."name"  , "ir_ui_view"."id"   LIMIT 1
+2025-08-21 17:20:22.533 +08 [33180] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2025-08-21 17:20:22.533 +08 [33180] STATEMENT:  SELECT "ir_ui_view"."id" FROM "ir_ui_view" WHERE (("ir_ui_view"."active" = true) AND ("ir_ui_view"."key" = 'http_routing.http_error')) ORDER BY "ir_ui_view"."priority"  , "ir_ui_view"."name"  , "ir_ui_view"."id"   LIMIT 1
+2025-08-21 17:21:08.219 +08 [33180] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:21:08.233 +08 [17624] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:21:08.234 +08 [44452] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:21:08.235 +08 [46584] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:22:58.909 +08 [7032] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:22:58.912 +08 [16068] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:22:58.913 +08 [30980] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:22:58.912 +08 [41828] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:22:58.914 +08 [23172] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:22:58.914 +08 [23620] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:22:58.914 +08 [11564] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:23:03.438 +08 [23920] ERROR:  column res_partner.kastam_registration_number does not exist at character 1760
+2025-08-21 17:23:03.438 +08 [23920] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id", "res_partner"."kastam_registration_number" FROM "res_partner" WHERE ("res_partner"."id" IN (3))
+2025-08-21 17:23:04.375 +08 [23920] ERROR:  column res_partner.kastam_registration_number does not exist at character 1760
+2025-08-21 17:23:04.375 +08 [23920] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id", "res_partner"."kastam_registration_number" FROM "res_partner" WHERE ("res_partner"."id" IN (3))
+2025-08-21 17:23:04.379 +08 [23920] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2025-08-21 17:23:04.379 +08 [23920] STATEMENT:  SELECT "ir_ui_view"."id" FROM "ir_ui_view" WHERE (("ir_ui_view"."active" = true) AND ("ir_ui_view"."key" = 'http_routing.http_error')) ORDER BY "ir_ui_view"."priority"  , "ir_ui_view"."name"  , "ir_ui_view"."id"   LIMIT 1
+2025-08-21 17:23:04.381 +08 [23920] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2025-08-21 17:23:04.381 +08 [23920] STATEMENT:  SELECT "ir_ui_view"."id" FROM "ir_ui_view" WHERE (("ir_ui_view"."active" = true) AND ("ir_ui_view"."key" = 'http_routing.http_error')) ORDER BY "ir_ui_view"."priority"  , "ir_ui_view"."name"  , "ir_ui_view"."id"   LIMIT 1
+2025-08-21 17:25:14.989 +08 [23920] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:25:15.040 +08 [23600] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:25:15.043 +08 [42056] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:25:15.043 +08 [17072] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:25:23.380 +08 [30920] ERROR:  column res_partner.kastam_registration_number does not exist at character 1760
+2025-08-21 17:25:23.380 +08 [30920] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id", "res_partner"."kastam_registration_number" FROM "res_partner" WHERE ("res_partner"."id" IN (3))
+2025-08-21 17:25:24.333 +08 [30920] ERROR:  column res_partner.kastam_registration_number does not exist at character 1760
+2025-08-21 17:25:24.333 +08 [30920] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id", "res_partner"."kastam_registration_number" FROM "res_partner" WHERE ("res_partner"."id" IN (3))
+2025-08-21 17:25:24.337 +08 [30920] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2025-08-21 17:25:24.337 +08 [30920] STATEMENT:  SELECT "ir_ui_view"."id" FROM "ir_ui_view" WHERE (("ir_ui_view"."active" = true) AND ("ir_ui_view"."key" = 'http_routing.http_error')) ORDER BY "ir_ui_view"."priority"  , "ir_ui_view"."name"  , "ir_ui_view"."id"   LIMIT 1
+2025-08-21 17:25:24.339 +08 [30920] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2025-08-21 17:25:24.339 +08 [30920] STATEMENT:  SELECT "ir_ui_view"."id" FROM "ir_ui_view" WHERE (("ir_ui_view"."active" = true) AND ("ir_ui_view"."key" = 'http_routing.http_error')) ORDER BY "ir_ui_view"."priority"  , "ir_ui_view"."name"  , "ir_ui_view"."id"   LIMIT 1
+2025-08-21 17:26:45.937 +08 [30920] ERROR:  column res_partner.kastam_registration_number does not exist at character 1760
+2025-08-21 17:26:45.937 +08 [30920] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id", "res_partner"."kastam_registration_number" FROM "res_partner" WHERE ("res_partner"."id" IN (3))
+2025-08-21 17:26:45.945 +08 [30920] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:26:45.945 +08 [30920] LOG:  unexpected EOF on client connection with an open transaction
+2025-08-21 17:26:45.956 +08 [49796] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:26:45.957 +08 [49888] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:26:45.957 +08 [36308] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:28:02.196 +08 [42372] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:28:02.200 +08 [24896] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:28:02.201 +08 [8520] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:28:02.202 +08 [32032] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:28:02.201 +08 [27632] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:28:02.204 +08 [28908] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:28:02.204 +08 [5632] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:28:08.505 +08 [4184] ERROR:  column res_partner.kastam_registration_number does not exist at character 1760
+2025-08-21 17:28:08.505 +08 [4184] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id", "res_partner"."kastam_registration_number" FROM "res_partner" WHERE ("res_partner"."id" IN (3))
+2025-08-21 17:28:09.209 +08 [4184] ERROR:  column res_partner.kastam_registration_number does not exist at character 1760
+2025-08-21 17:28:09.209 +08 [4184] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id", "res_partner"."kastam_registration_number" FROM "res_partner" WHERE ("res_partner"."id" IN (3))
+2025-08-21 17:28:09.213 +08 [4184] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2025-08-21 17:28:09.213 +08 [4184] STATEMENT:  SELECT "ir_ui_view"."id" FROM "ir_ui_view" WHERE (("ir_ui_view"."active" = true) AND ("ir_ui_view"."key" = 'http_routing.http_error')) ORDER BY "ir_ui_view"."priority"  , "ir_ui_view"."name"  , "ir_ui_view"."id"   LIMIT 1
+2025-08-21 17:28:09.215 +08 [4184] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2025-08-21 17:28:09.215 +08 [4184] STATEMENT:  SELECT "ir_ui_view"."id" FROM "ir_ui_view" WHERE (("ir_ui_view"."active" = true) AND ("ir_ui_view"."key" = 'http_routing.http_error')) ORDER BY "ir_ui_view"."priority"  , "ir_ui_view"."name"  , "ir_ui_view"."id"   LIMIT 1
+2025-08-21 17:30:04.726 +08 [33796] ERROR:  column res_partner.kastam_registration_number does not exist at character 1760
+2025-08-21 17:30:04.726 +08 [33796] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id", "res_partner"."kastam_registration_number" FROM "res_partner" WHERE ("res_partner"."id" IN (2))
+2025-08-21 17:30:05.213 +08 [33796] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:30:05.213 +08 [4184] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:30:05.217 +08 [4184] LOG:  unexpected EOF on client connection with an open transaction
+2025-08-21 17:30:05.258 +08 [21232] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:30:05.260 +08 [8920] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:30:05.263 +08 [6052] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:30:12.995 +08 [45684] ERROR:  column res_partner.kastam_registration_number does not exist at character 1760
+2025-08-21 17:30:12.995 +08 [45684] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id", "res_partner"."kastam_registration_number" FROM "res_partner" WHERE ("res_partner"."id" IN (3))
+2025-08-21 17:30:13.706 +08 [45684] ERROR:  column res_partner.kastam_registration_number does not exist at character 1760
+2025-08-21 17:30:13.706 +08 [45684] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id", "res_partner"."kastam_registration_number" FROM "res_partner" WHERE ("res_partner"."id" IN (3))
+2025-08-21 17:30:13.711 +08 [45684] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2025-08-21 17:30:13.711 +08 [45684] STATEMENT:  SELECT "ir_ui_view"."id" FROM "ir_ui_view" WHERE (("ir_ui_view"."active" = true) AND ("ir_ui_view"."key" = 'http_routing.http_error')) ORDER BY "ir_ui_view"."priority"  , "ir_ui_view"."name"  , "ir_ui_view"."id"   LIMIT 1
+2025-08-21 17:30:13.712 +08 [45684] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2025-08-21 17:30:13.712 +08 [45684] STATEMENT:  SELECT "ir_ui_view"."id" FROM "ir_ui_view" WHERE (("ir_ui_view"."active" = true) AND ("ir_ui_view"."key" = 'http_routing.http_error')) ORDER BY "ir_ui_view"."priority"  , "ir_ui_view"."name"  , "ir_ui_view"."id"   LIMIT 1
+2025-08-21 17:31:48.000 +08 [21148] FATAL:  database "test_manifest_contact" does not exist
+2025-08-21 17:31:48.050 +08 [14272] FATAL:  database "test_manifest_contact" does not exist
+2025-08-21 17:33:39.407 +08 [14464] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:33:39.408 +08 [16280] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:33:39.409 +08 [14464] LOG:  unexpected EOF on client connection with an open transaction
+2025-08-21 17:33:39.448 +08 [9708] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:33:39.455 +08 [12888] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:33:39.456 +08 [17840] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:33:39.457 +08 [21152] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:33:39.457 +08 [16388] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:33:39.459 +08 [8524] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:33:39.460 +08 [16508] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:36:25.482 +08 [31128] ERROR:  column res_partner.membership_id does not exist at character 1729
+2025-08-21 17:36:25.482 +08 [31128] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id", "res_partner"."kastam_registration_number", "res_partner"."expiry_date" FROM "res_partner" WHERE ("res_partner"."id" IN (3)) AND ((("res_partner"."partner_share" IS NULL OR "res_partner"."partner_share" = FALSE) OR ("res_partner"."company_id" IN (SELECT "res_company"."id" FROM "res_company" WHERE ("res_company"."id" IN (1))))) OR "res_partner"."company_id" IS NULL)
+2025-08-21 17:36:42.320 +08 [31128] ERROR:  column res_partner.membership_id does not exist at character 1729
+2025-08-21 17:36:42.320 +08 [31128] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id", "res_partner"."kastam_registration_number", "res_partner"."expiry_date" FROM "res_partner" WHERE ("res_partner"."id" IN (2))
+2025-08-21 17:36:45.377 +08 [31128] ERROR:  column res_partner.membership_id does not exist at character 1729
+2025-08-21 17:36:45.377 +08 [31128] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id", "res_partner"."kastam_registration_number", "res_partner"."expiry_date" FROM "res_partner" WHERE ("res_partner"."id" IN (2))
+2025-08-21 17:39:35.657 +08 [28732] FATAL:  database "test4" does not exist
+2025-08-21 17:39:35.707 +08 [28596] FATAL:  database "test4" does not exist
+2025-08-21 17:39:42.699 +08 [39944] ERROR:  could not obtain lock on row in relation "ir_cron"
+2025-08-21 17:39:42.699 +08 [39944] STATEMENT:  SELECT * FROM ir_cron FOR UPDATE NOWAIT
+2025-08-21 17:41:17.648 +08 [19652] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:41:17.649 +08 [39944] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:41:17.649 +08 [34980] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:41:17.672 +08 [32916] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:41:17.672 +08 [38512] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:41:17.672 +08 [34688] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:41:59.961 +08 [10236] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:42:00.016 +08 [25288] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:42:00.020 +08 [44876] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:42:00.020 +08 [36684] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:42:00.020 +08 [10908] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:43:47.359 +08 [47716] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:43:47.387 +08 [16036] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:43:47.387 +08 [48232] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:43:47.388 +08 [26680] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:43:47.389 +08 [45324] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:44:59.223 +08 [17036] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:44:59.282 +08 [6260] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:44:59.283 +08 [49552] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:44:59.285 +08 [46484] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:44:59.285 +08 [11308] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:48:31.994 +08 [11924] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:48:32.008 +08 [21500] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:48:32.010 +08 [42208] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:48:32.011 +08 [26864] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:48:32.011 +08 [33732] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:49:39.703 +08 [48608] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:49:39.721 +08 [40848] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:49:39.724 +08 [41848] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:49:39.724 +08 [41184] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:49:39.726 +08 [33192] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:50:52.584 +08 [35040] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:50:52.599 +08 [36328] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:50:52.601 +08 [31248] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:50:52.601 +08 [43924] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:50:52.601 +08 [9640] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:57:28.405 +08 [31392] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:57:28.420 +08 [29428] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:57:28.420 +08 [38288] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:57:28.422 +08 [2612] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 17:57:28.422 +08 [24252] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 18:52:21.303 +08 [48808] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 18:52:21.304 +08 [11472] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 18:52:21.304 +08 [45080] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 18:52:21.304 +08 [46780] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 18:53:15.000 +08 [45416] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 18:53:15.025 +08 [31160] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 18:53:15.025 +08 [16632] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 18:53:15.025 +08 [5152] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 18:53:15.025 +08 [39188] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 18:56:19.192 +08 [39572] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 18:56:19.209 +08 [30212] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 18:56:19.212 +08 [39296] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 18:56:19.213 +08 [2904] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 18:56:19.213 +08 [14904] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 18:56:29.173 +08 [35628] ERROR:  could not obtain lock on row in relation "ir_cron"
+2025-08-21 18:56:29.173 +08 [35628] STATEMENT:  SELECT * FROM ir_cron FOR UPDATE NOWAIT
+2025-08-21 18:57:22.220 +08 [27444] ERROR:  column res_partner.member_type does not exist at character 2185
+2025-08-21 18:57:22.220 +08 [27444] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id", "res_partner"."kastam_registration_number", "res_partner"."expiry_date", "res_partner"."shipping_agent", "res_partner"."forwarding_agents", "res_partner"."last_mile_delivery", "res_partner"."transport_operators", "res_partner"."freight_forwarding", "res_partner"."courier_services", "res_partner"."warehouse_operators", "res_partner"."combined_transport_operators", "res_partner"."nvocc", "res_partner"."ancillary_services", "res_partner"."member_type", "res_partner"."principal_id", "res_partner"."member_id_new", "res_partner"."member_id_old", "res_partner"."proposer_company", "res_partner"."proposer_name", "res_partner"."proposer_id_new", "res_partner"."proposer_id_old", "res_partner"."seconder_company", "res_partner"."seconder_name", "res_partner"."seconder_id_new", "res_partner"."seconder_id_old", "res_partner"."applicant_name", "res_partner"."application_date", "res_partner"."membership_stages", "res_partner"."ncd", "res_partner"."member_date_start", "res_partner"."member_date_end" FROM "res_partner" WHERE ("res_partner"."id" IN (3))
+2025-08-21 19:01:15.375 +08 [21336] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:01:15.399 +08 [40516] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:01:15.400 +08 [45496] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:01:15.400 +08 [28496] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:01:15.400 +08 [11812] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:01:15.400 +08 [9868] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:01:15.402 +08 [11940] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:01:15.402 +08 [17272] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:05:26.396 +08 [22996] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:05:26.459 +08 [20852] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:05:26.464 +08 [9688] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:05:26.465 +08 [39944] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:05:26.466 +08 [49516] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:05:26.470 +08 [29296] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:05:26.473 +08 [15528] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:05:26.474 +08 [28960] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:07:37.908 +08 [35432] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:07:37.909 +08 [48628] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:07:37.910 +08 [45848] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:07:37.911 +08 [49504] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:07:37.911 +08 [32500] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:07:37.911 +08 [37304] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:07:37.914 +08 [13344] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:07:37.915 +08 [50136] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:07:45.672 +08 [33388] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:07:45.677 +08 [16032] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:07:45.678 +08 [11708] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:07:45.678 +08 [47624] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:15:06.637 +08 [44952] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:15:06.646 +08 [10460] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:15:06.647 +08 [34760] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:15:06.647 +08 [13868] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:15:06.648 +08 [44660] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:15:06.648 +08 [29928] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:15:06.649 +08 [21804] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:15:06.649 +08 [41388] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:15:06.671 +08 [31076] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:15:11.476 +08 [28876] ERROR:  column res_partner.membership_id does not exist at character 1729
+2025-08-21 19:15:11.476 +08 [28876] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id" FROM "res_partner" WHERE ("res_partner"."id" IN (3))
+2025-08-21 19:15:16.889 +08 [28876] ERROR:  column res_partner.membership_id does not exist at character 1729
+2025-08-21 19:15:16.889 +08 [28876] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id" FROM "res_partner" WHERE ("res_partner"."id" IN (2))
+2025-08-21 19:16:13.124 +08 [28876] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:16:13.158 +08 [27868] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:16:13.158 +08 [15272] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:16:13.159 +08 [39136] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:17:33.156 +08 [17472] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:17:33.158 +08 [43472] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:17:33.159 +08 [33492] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:17:33.159 +08 [29192] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:17:38.469 +08 [42212] ERROR:  column res_partner.membership_id does not exist at character 1729
+2025-08-21 19:17:38.469 +08 [42212] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id" FROM "res_partner" WHERE ("res_partner"."id" IN (3))
+2025-08-21 19:17:39.286 +08 [42212] ERROR:  column res_partner.membership_id does not exist at character 1729
+2025-08-21 19:17:39.286 +08 [42212] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id" FROM "res_partner" WHERE ("res_partner"."id" IN (3))
+2025-08-21 19:17:39.291 +08 [42212] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2025-08-21 19:17:39.291 +08 [42212] STATEMENT:  SELECT "ir_ui_view"."id" FROM "ir_ui_view" WHERE (("ir_ui_view"."active" = true) AND ("ir_ui_view"."key" = 'http_routing.http_error')) ORDER BY "ir_ui_view"."priority"  , "ir_ui_view"."name"  , "ir_ui_view"."id"   LIMIT 1
+2025-08-21 19:17:39.293 +08 [42212] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2025-08-21 19:17:39.293 +08 [42212] STATEMENT:  SELECT "ir_ui_view"."id" FROM "ir_ui_view" WHERE (("ir_ui_view"."active" = true) AND ("ir_ui_view"."key" = 'http_routing.http_error')) ORDER BY "ir_ui_view"."priority"  , "ir_ui_view"."name"  , "ir_ui_view"."id"   LIMIT 1
+2025-08-21 19:54:06.951 +08 [42212] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:54:06.951 +08 [43144] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:54:06.952 +08 [43144] LOG:  unexpected EOF on client connection with an open transaction
+2025-08-21 19:54:06.970 +08 [11520] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:54:06.970 +08 [40404] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:54:06.973 +08 [22408] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:54:06.975 +08 [3712] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:54:06.979 +08 [37656] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:54:06.979 +08 [21420] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:54:06.979 +08 [22564] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:58:00.956 +08 [16468] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:58:00.974 +08 [23048] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:58:00.976 +08 [1340] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:58:00.978 +08 [32576] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:58:00.979 +08 [15312] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:58:00.980 +08 [13836] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:58:00.981 +08 [5604] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:58:00.981 +08 [2656] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 19:58:09.573 +08 [20852] ERROR:  column res_partner.sffla_member does not exist at character 1729
+2025-08-21 19:58:09.573 +08 [20852] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."sffla_member" FROM "res_partner" WHERE ("res_partner"."id" IN (2))
+2025-08-21 19:59:32.657 +08 [20852] ERROR:  column res_partner.sffla_member does not exist at character 1729
+2025-08-21 19:59:32.657 +08 [20852] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."sffla_member" FROM "res_partner" WHERE ("res_partner"."id" IN (3))
+2025-08-21 20:03:11.973 +08 [20852] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 20:03:11.973 +08 [40376] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 20:03:11.974 +08 [35264] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 20:03:11.995 +08 [33684] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 20:03:11.996 +08 [23312] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 20:03:11.998 +08 [25084] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 20:03:11.999 +08 [25288] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 20:03:12.000 +08 [19156] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 20:03:12.000 +08 [40588] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 20:03:12.000 +08 [14868] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 20:03:12.002 +08 [17216] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 20:03:17.660 +08 [14340] ERROR:  column res_partner.membership_id does not exist at character 1729
+2025-08-21 20:03:17.660 +08 [14340] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id", "res_partner"."sffla_member" FROM "res_partner" WHERE ("res_partner"."id" IN (3))
+2025-08-21 20:03:27.794 +08 [14340] ERROR:  column res_partner.membership_id does not exist at character 1729
+2025-08-21 20:03:27.794 +08 [14340] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id", "res_partner"."sffla_member" FROM "res_partner" WHERE ("res_partner"."id" IN (2))
+2025-08-21 20:03:42.808 +08 [14340] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 20:03:42.824 +08 [49300] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 20:03:42.827 +08 [26344] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 20:03:42.828 +08 [19852] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-21 20:03:50.941 +08 [26740] ERROR:  column res_partner.membership_id does not exist at character 1729
+2025-08-21 20:03:50.941 +08 [26740] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id", "res_partner"."sffla_member" FROM "res_partner" WHERE ("res_partner"."id" IN (3))
+2025-08-21 20:03:52.333 +08 [26740] ERROR:  column res_partner.membership_id does not exist at character 1729
+2025-08-21 20:03:52.333 +08 [26740] STATEMENT:  SELECT "res_partner"."id", "res_partner"."email_normalized", "res_partner"."message_bounce", "res_partner"."name", "res_partner"."complete_name", "res_partner"."date", "res_partner"."title", "res_partner"."parent_id", "res_partner"."ref", "res_partner"."lang", "res_partner"."tz", "res_partner"."user_id", "res_partner"."vat", "res_partner"."company_registry", "res_partner"."website", "res_partner"."comment", "res_partner"."active", "res_partner"."employee", "res_partner"."function", "res_partner"."type", "res_partner"."street", "res_partner"."street2", "res_partner"."zip", "res_partner"."city", "res_partner"."state_id", "res_partner"."country_id", "res_partner"."partner_latitude", "res_partner"."partner_longitude", "res_partner"."email", "res_partner"."phone", "res_partner"."mobile", "res_partner"."is_company", "res_partner"."industry_id", "res_partner"."company_id", "res_partner"."color", "res_partner"."partner_share", "res_partner"."commercial_partner_id", "res_partner"."commercial_company_name", "res_partner"."company_name", "res_partner"."create_uid", "res_partner"."create_date", "res_partner"."write_uid", "res_partner"."write_date", "res_partner"."signup_type", "res_partner"."signup_expiration", "res_partner"."team_id", "res_partner"."partner_gid", "res_partner"."additional_info", "res_partner"."phone_sanitized", "res_partner"."debit_limit", "res_partner"."last_time_entries_checked", "res_partner"."invoice_warn", "res_partner"."invoice_warn_msg", "res_partner"."supplier_rank", "res_partner"."customer_rank", "res_partner"."ubl_cii_format", "res_partner"."peppol_endpoint", "res_partner"."peppol_eas", "res_partner"."sale_warn", "res_partner"."sale_warn_msg", "res_partner"."is_active_subscription", "res_partner"."membership_id", "res_partner"."sffla_member" FROM "res_partner" WHERE ("res_partner"."id" IN (3))
+2025-08-21 20:03:52.337 +08 [26740] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2025-08-21 20:03:52.337 +08 [26740] STATEMENT:  SELECT "ir_ui_view"."id" FROM "ir_ui_view" WHERE (("ir_ui_view"."active" = true) AND ("ir_ui_view"."key" = 'http_routing.http_error')) ORDER BY "ir_ui_view"."priority"  , "ir_ui_view"."name"  , "ir_ui_view"."id"   LIMIT 1
+2025-08-21 20:03:52.339 +08 [26740] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2025-08-21 20:03:52.339 +08 [26740] STATEMENT:  SELECT "ir_ui_view"."id" FROM "ir_ui_view" WHERE (("ir_ui_view"."active" = true) AND ("ir_ui_view"."key" = 'http_routing.http_error')) ORDER BY "ir_ui_view"."priority"  , "ir_ui_view"."name"  , "ir_ui_view"."id"   LIMIT 1
+2025-08-22 08:48:49.404 +08 [14252] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:48:49.418 +08 [24008] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:48:49.422 +08 [28348] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:48:49.423 +08 [22536] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:48:49.425 +08 [10988] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:48:49.425 +08 [13816] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:48:49.427 +08 [13872] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:48:49.428 +08 [19748] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:57:14.218 +08 [15288] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:57:14.219 +08 [25848] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:57:14.245 +08 [41608] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:57:14.246 +08 [23912] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:57:14.248 +08 [22576] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:57:14.248 +08 [34788] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:57:14.249 +08 [33940] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:57:14.250 +08 [37880] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:57:14.250 +08 [6508] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:57:14.252 +08 [38612] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:57:14.252 +08 [14424] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:57:14.252 +08 [32016] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:57:14.252 +08 [29312] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:57:14.253 +08 [30836] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 08:57:14.253 +08 [31836] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:04:36.260 +08 [42896] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:04:36.261 +08 [29048] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:04:36.261 +08 [35564] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:04:36.261 +08 [26984] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:04:36.261 +08 [29672] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:04:36.263 +08 [4020] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:04:36.263 +08 [43076] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:04:36.263 +08 [18160] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:11:06.911 +08 [41980] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:11:06.911 +08 [49160] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:11:06.913 +08 [11376] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:11:06.914 +08 [18784] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:11:06.914 +08 [29680] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:11:06.919 +08 [39644] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:11:06.919 +08 [46088] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:15:25.657 +08 [30060] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:15:25.657 +08 [32520] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:15:25.658 +08 [37320] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:15:25.658 +08 [24532] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:15:25.658 +08 [28188] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:15:25.660 +08 [2936] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:16:20.411 +08 [27656] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:16:20.414 +08 [30064] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:16:20.414 +08 [17692] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:16:20.416 +08 [39596] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:16:20.417 +08 [41360] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:16:20.418 +08 [36556] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:16:20.420 +08 [13980] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:16:20.443 +08 [7276] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:26:14.978 +08 [23400] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:26:14.981 +08 [17812] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:26:14.981 +08 [16692] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:26:15.010 +08 [30288] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:26:15.011 +08 [37276] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:26:15.012 +08 [46172] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:26:15.013 +08 [30160] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:26:15.017 +08 [26336] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:26:15.018 +08 [48328] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:26:15.020 +08 [35168] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:26:15.021 +08 [19776] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:26:15.021 +08 [39956] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:26:15.022 +08 [11584] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:26:15.023 +08 [49320] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:26:15.025 +08 [4852] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:26:15.027 +08 [48676] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:26:15.029 +08 [8840] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:26:15.029 +08 [34884] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:27:16.645 +08 [30092] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:27:16.645 +08 [24620] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:27:16.647 +08 [23996] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:27:16.647 +08 [41560] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:27:16.648 +08 [13992] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:27:16.648 +08 [46500] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:27:16.649 +08 [16460] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:45:58.599 +08 [20068] ERROR:  could not create unique index "res_members_unique_membership_number"
+2025-08-22 09:45:58.599 +08 [20068] DETAIL:  Key (membership_number)=(New) is duplicated.
+2025-08-22 09:45:58.599 +08 [20068] STATEMENT:  ALTER TABLE "res_members" ADD CONSTRAINT "res_members_unique_membership_number" unique(membership_number)
+2025-08-22 09:45:58.606 +08 [20068] ERROR:  could not create unique index "res_members_unique_partner"
+2025-08-22 09:45:58.606 +08 [20068] DETAIL:  Key (partner_id)=(1) is duplicated.
+2025-08-22 09:45:58.606 +08 [20068] STATEMENT:  ALTER TABLE "res_members" ADD CONSTRAINT "res_members_unique_partner" unique(partner_id)
+2025-08-22 09:49:31.846 +08 [20068] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:49:31.861 +08 [22852] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:49:31.863 +08 [37636] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:49:31.865 +08 [19064] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:49:31.865 +08 [21432] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:49:31.868 +08 [38648] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:49:31.868 +08 [32464] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:49:31.869 +08 [32500] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 09:49:31.909 +08 [47420] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 10:00:51.925 +08 [13524] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 10:00:51.937 +08 [12692] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 10:00:51.941 +08 [28496] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 10:00:51.943 +08 [36152] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 10:00:51.944 +08 [19944] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 10:00:51.945 +08 [31580] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-08-22 10:00:51.945 +08 [43520] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

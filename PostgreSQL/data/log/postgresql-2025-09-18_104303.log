@@ -1,0 +1,375 @@
+2025-09-18 10:43:03.842 +08 [10204] LOG:  database system was interrupted; last known up at 2025-09-18 10:40:50 +08
+2025-09-18 10:43:41.425 +08 [10204] LOG:  database system was not properly shut down; automatic recovery in progress
+2025-09-18 10:43:41.563 +08 [10204] LOG:  redo starts at 0/7B3F3738
+2025-09-18 10:43:41.570 +08 [10204] LOG:  invalid record length at 0/7B3F3770: wanted 24, got 0
+2025-09-18 10:43:41.572 +08 [10204] LOG:  redo done at 0/7B3F3738
+2025-09-18 10:43:41.823 +08 [9204] LOG:  database system is ready to accept connections
+2025-09-18 10:47:46.566 +08 [21164] ERROR:  null value in column "model_id" violates not-null constraint
+2025-09-18 10:47:46.566 +08 [21164] DETAIL:  Failing row contains (6965, null, null, null, null, 1, 1, x_, null, null, null, null, char, null, manual, set null, [], null, null, null, null, null, {"en_US": ""}, null, null, null, null, null, null, null, null, t, t, t, f, t, t, f, t, f, f, 2025-09-18 02:47:44.389272, 2025-09-18 02:47:44.389272, null, t).
+2025-09-18 10:47:46.566 +08 [21164] STATEMENT:  INSERT INTO "ir_model_fields" ("create_date", "create_uid", "domain", "field_description", "name", "on_delete", "sanitize", "sanitize_attributes", "sanitize_form", "sanitize_overridable", "sanitize_style", "sanitize_tags", "selectable", "state", "store", "strip_classes", "strip_style", "ttype", "website_form_blacklisted", "write_date", "write_uid") VALUES ('2025-09-18 02:47:44.389272', 1, '[]', '{"en_US": ""}', 'x_', 'set null', true, true, true, false, false, true, true, 'manual', true, false, false, 'char', true, '2025-09-18 02:47:44.389272', 1) RETURNING "id"
+2025-09-18 10:48:55.145 +08 [21164] ERROR:  null value in column "model_id" violates not-null constraint
+2025-09-18 10:48:55.145 +08 [21164] DETAIL:  Failing row contains (7002, null, null, null, null, 1, 1, x_, null, null, null, null, char, null, manual, set null, [], null, null, null, null, null, {"en_US": ""}, null, null, null, null, null, null, null, null, t, t, t, f, t, t, f, t, f, f, 2025-09-18 02:48:50.558368, 2025-09-18 02:48:50.558368, null, t).
+2025-09-18 10:48:55.145 +08 [21164] STATEMENT:  INSERT INTO "ir_model_fields" ("create_date", "create_uid", "domain", "field_description", "name", "on_delete", "sanitize", "sanitize_attributes", "sanitize_form", "sanitize_overridable", "sanitize_style", "sanitize_tags", "selectable", "state", "store", "strip_classes", "strip_style", "ttype", "website_form_blacklisted", "write_date", "write_uid") VALUES ('2025-09-18 02:48:50.558368', 1, '[]', '{"en_US": ""}', 'x_', 'set null', true, true, true, false, false, true, true, 'manual', true, false, false, 'char', true, '2025-09-18 02:48:50.558368', 1) RETURNING "id"
+2025-09-18 10:54:38.717 +08 [21164] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 10:54:38.738 +08 [6692] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 10:54:38.739 +08 [14624] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 10:54:38.740 +08 [20732] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 10:54:38.742 +08 [12556] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 10:54:38.743 +08 [3188] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 10:54:38.745 +08 [22096] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 10:54:38.746 +08 [3408] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 10:55:16.834 +08 [16676] ERROR:  null value in column "model_id" violates not-null constraint
+2025-09-18 10:55:16.834 +08 [16676] DETAIL:  Failing row contains (7039, null, null, null, null, 1, 1, x_, null, null, null, null, char, null, manual, set null, [], null, null, null, null, null, {"en_US": ""}, null, null, null, null, null, null, null, null, t, t, t, f, t, t, f, t, f, f, 2025-09-18 02:55:11.430275, 2025-09-18 02:55:11.430275, null, t).
+2025-09-18 10:55:16.834 +08 [16676] STATEMENT:  INSERT INTO "ir_model_fields" ("create_date", "create_uid", "domain", "field_description", "name", "on_delete", "sanitize", "sanitize_attributes", "sanitize_form", "sanitize_overridable", "sanitize_style", "sanitize_tags", "selectable", "state", "store", "strip_classes", "strip_style", "ttype", "website_form_blacklisted", "write_date", "write_uid") VALUES ('2025-09-18 02:55:11.430275', 1, '[]', '{"en_US": ""}', 'x_', 'set null', true, true, true, false, false, true, true, 'manual', true, false, false, 'char', true, '2025-09-18 02:55:11.430275', 1) RETURNING "id"
+2025-09-18 10:59:43.863 +08 [16676] ERROR:  null value in column "model_id" violates not-null constraint
+2025-09-18 10:59:43.863 +08 [16676] DETAIL:  Failing row contains (7672, null, null, null, null, 1, 1, x_, null, null, null, null, char, null, manual, set null, [], null, null, null, null, null, {"en_US": ""}, null, null, null, null, null, null, null, null, t, t, t, f, t, t, f, t, f, f, 2025-09-18 02:59:37.259411, 2025-09-18 02:59:37.259411, null, t).
+2025-09-18 10:59:43.863 +08 [16676] STATEMENT:  INSERT INTO "ir_model_fields" ("create_date", "create_uid", "domain", "field_description", "name", "on_delete", "sanitize", "sanitize_attributes", "sanitize_form", "sanitize_overridable", "sanitize_style", "sanitize_tags", "selectable", "state", "store", "strip_classes", "strip_style", "ttype", "website_form_blacklisted", "write_date", "write_uid") VALUES ('2025-09-18 02:59:37.259411', 1, '[]', '{"en_US": ""}', 'x_', 'set null', true, true, true, false, false, true, true, 'manual', true, false, false, 'char', true, '2025-09-18 02:59:37.259411', 1) RETURNING "id"
+2025-09-18 11:05:44.286 +08 [16676] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:05:44.317 +08 [9664] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:05:44.317 +08 [4972] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:05:44.318 +08 [2880] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:05:44.318 +08 [8540] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:05:44.318 +08 [19340] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:05:44.319 +08 [11820] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:05:44.321 +08 [10916] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:06:15.316 +08 [12508] ERROR:  new row for relation "ir_model_fields" violates check constraint "ir_model_fields_name_manual_field"
+2025-09-18 11:06:15.316 +08 [12508] DETAIL:  Failing row contains (7709, null, 85, null, null, 1, 1, kastam_registration_number, null, res.partner, null, null, char, null, manual, set null, [], null, null, null, null, null, {"en_US": ""}, null, null, null, null, null, null, null, null, t, t, t, f, t, t, f, t, f, f, 2025-09-18 03:06:13.323609, 2025-09-18 03:06:13.323609, null, t).
+2025-09-18 11:06:15.316 +08 [12508] STATEMENT:  INSERT INTO "ir_model_fields" ("create_date", "create_uid", "domain", "field_description", "model", "model_id", "name", "on_delete", "sanitize", "sanitize_attributes", "sanitize_form", "sanitize_overridable", "sanitize_style", "sanitize_tags", "selectable", "state", "store", "strip_classes", "strip_style", "ttype", "website_form_blacklisted", "write_date", "write_uid") VALUES ('2025-09-18 03:06:13.323609', 1, '[]', '{"en_US": ""}', 'res.partner', 85, 'kastam_registration_number', 'set null', true, true, true, false, false, true, true, 'manual', true, false, false, 'char', true, '2025-09-18 03:06:13.323609', 1) RETURNING "id"
+2025-09-18 11:06:50.176 +08 [12508] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:06:50.196 +08 [16580] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:06:50.198 +08 [1812] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:06:50.200 +08 [8452] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:06:50.201 +08 [5536] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:06:50.201 +08 [20056] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:06:50.201 +08 [21096] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:07:22.161 +08 [21780] ERROR:  new row for relation "ir_model_fields" violates check constraint "ir_model_fields_name_manual_field"
+2025-09-18 11:07:22.161 +08 [21780] DETAIL:  Failing row contains (7746, null, 85, null, null, 1, 1, kastam_registration_number, null, res.partner, null, null, char, null, manual, set null, [], null, null, null, null, null, {"en_US": ""}, null, null, null, null, null, null, null, null, t, t, t, f, t, t, f, t, f, f, 2025-09-18 03:07:20.190981, 2025-09-18 03:07:20.190981, null, t).
+2025-09-18 11:07:22.161 +08 [21780] STATEMENT:  INSERT INTO "ir_model_fields" ("create_date", "create_uid", "domain", "field_description", "model", "model_id", "name", "on_delete", "sanitize", "sanitize_attributes", "sanitize_form", "sanitize_overridable", "sanitize_style", "sanitize_tags", "selectable", "state", "store", "strip_classes", "strip_style", "ttype", "website_form_blacklisted", "write_date", "write_uid") VALUES ('2025-09-18 03:07:20.190981', 1, '[]', '{"en_US": ""}', 'res.partner', 85, 'kastam_registration_number', 'set null', true, true, true, false, false, true, true, 'manual', true, false, false, 'char', true, '2025-09-18 03:07:20.190981', 1) RETURNING "id"
+2025-09-18 11:07:59.950 +08 [21780] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:07:59.972 +08 [9384] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:07:59.973 +08 [21540] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:07:59.974 +08 [3016] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:07:59.974 +08 [2356] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:07:59.975 +08 [21820] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:07:59.975 +08 [13876] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:08:29.623 +08 [4152] ERROR:  new row for relation "ir_model_fields" violates check constraint "ir_model_fields_name_manual_field"
+2025-09-18 11:08:29.623 +08 [4152] DETAIL:  Failing row contains (7783, null, 85, null, null, 1, 1, kastam_registration_number, null, res.partner, null, null, char, null, manual, set null, [], null, null, null, null, null, {"en_US": "Kastam Registration Number"}, null, null, null, null, null, null, null, null, t, t, t, f, t, t, f, t, f, f, 2025-09-18 03:08:22.789459, 2025-09-18 03:08:22.789459, null, t).
+2025-09-18 11:08:29.623 +08 [4152] STATEMENT:  INSERT INTO "ir_model_fields" ("create_date", "create_uid", "domain", "field_description", "model", "model_id", "name", "on_delete", "sanitize", "sanitize_attributes", "sanitize_form", "sanitize_overridable", "sanitize_style", "sanitize_tags", "selectable", "state", "store", "strip_classes", "strip_style", "ttype", "website_form_blacklisted", "write_date", "write_uid") VALUES ('2025-09-18 03:08:22.789459', 1, '[]', '{"en_US": "Kastam Registration Number"}', 'res.partner', 85, 'kastam_registration_number', 'set null', true, true, true, false, false, true, true, 'manual', true, false, false, 'char', true, '2025-09-18 03:08:22.789459', 1) RETURNING "id"
+2025-09-18 11:24:58.811 +08 [4936] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:24:58.812 +08 [7504] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:24:58.812 +08 [7176] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:24:58.814 +08 [3740] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:25:36.166 +08 [3524] ERROR:  null value in column "model_id" violates not-null constraint
+2025-09-18 11:25:36.166 +08 [3524] DETAIL:  Failing row contains (7800, null, null, null, null, 1, 1, x_, null, null, null, null, char, null, manual, set null, [], null, null, null, null, null, {"en_US": ""}, null, null, null, null, null, null, null, null, t, t, t, f, t, t, f, t, f, f, 2025-09-18 03:25:34.761651, 2025-09-18 03:25:34.761651, null, t).
+2025-09-18 11:25:36.166 +08 [3524] STATEMENT:  INSERT INTO "ir_model_fields" ("create_date", "create_uid", "domain", "field_description", "name", "on_delete", "sanitize", "sanitize_attributes", "sanitize_form", "sanitize_overridable", "sanitize_style", "sanitize_tags", "selectable", "state", "store", "strip_classes", "strip_style", "ttype", "website_form_blacklisted", "write_date", "write_uid") VALUES ('2025-09-18 03:25:34.761651', 1, '[]', '{"en_US": ""}', 'x_', 'set null', true, true, true, false, false, true, true, 'manual', true, false, false, 'char', true, '2025-09-18 03:25:34.761651', 1) RETURNING "id"
+2025-09-18 11:29:00.978 +08 [3524] ERROR:  null value in column "model_id" violates not-null constraint
+2025-09-18 11:29:00.978 +08 [3524] DETAIL:  Failing row contains (7817, null, null, null, null, 1, 1, x_, null, null, null, null, char, null, manual, set null, [], null, null, null, null, null, {"en_US": ""}, null, null, null, null, null, null, null, null, t, t, t, f, t, t, f, t, f, f, 2025-09-18 03:28:58.882451, 2025-09-18 03:28:58.882451, null, t).
+2025-09-18 11:29:00.978 +08 [3524] STATEMENT:  INSERT INTO "ir_model_fields" ("create_date", "create_uid", "domain", "field_description", "name", "on_delete", "sanitize", "sanitize_attributes", "sanitize_form", "sanitize_overridable", "sanitize_style", "sanitize_tags", "selectable", "state", "store", "strip_classes", "strip_style", "ttype", "website_form_blacklisted", "write_date", "write_uid") VALUES ('2025-09-18 03:28:58.882451', 1, '[]', '{"en_US": ""}', 'x_', 'set null', true, true, true, false, false, true, true, 'manual', true, false, false, 'char', true, '2025-09-18 03:28:58.882451', 1) RETURNING "id"
+2025-09-18 11:32:31.827 +08 [3524] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:32:31.868 +08 [11368] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:32:31.872 +08 [20484] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:32:31.874 +08 [2268] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:32:31.879 +08 [22020] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:32:31.878 +08 [19348] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:32:31.884 +08 [15980] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:32:31.885 +08 [6172] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:34:37.377 +08 [18968] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:34:37.401 +08 [10828] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:34:37.401 +08 [2340] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:34:37.404 +08 [12692] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:34:37.404 +08 [23068] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:34:37.404 +08 [23036] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:35:05.240 +08 [19848] ERROR:  null value in column "model_id" violates not-null constraint
+2025-09-18 11:35:05.240 +08 [19848] DETAIL:  Failing row contains (7850, null, null, null, null, 1, 1, kastam_registration_number, null, res.partner, null, null, char, null, manual, set null, [], null, null, null, null, null, {"en_US": "Kastam Registration Number"}, null, null, null, null, null, null, null, null, t, t, t, f, t, t, f, t, f, f, 2025-09-18 03:35:03.304005, 2025-09-18 03:35:03.304005, null, t).
+2025-09-18 11:35:05.240 +08 [19848] STATEMENT:  INSERT INTO "ir_model_fields" ("create_date", "create_uid", "domain", "field_description", "model", "name", "on_delete", "sanitize", "sanitize_attributes", "sanitize_form", "sanitize_overridable", "sanitize_style", "sanitize_tags", "selectable", "state", "store", "strip_classes", "strip_style", "ttype", "website_form_blacklisted", "write_date", "write_uid") VALUES ('2025-09-18 03:35:03.304005', 1, '[]', '{"en_US": "Kastam Registration Number"}', 'res.partner', 'kastam_registration_number', 'set null', true, true, true, false, false, true, true, 'manual', true, false, false, 'char', true, '2025-09-18 03:35:03.304005', 1) RETURNING "id"
+2025-09-18 11:36:08.783 +08 [19848] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:36:08.795 +08 [23344] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:36:08.793 +08 [23324] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:36:08.799 +08 [15184] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:36:08.799 +08 [12300] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:36:08.820 +08 [23544] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:36:08.820 +08 [23476] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:36:33.662 +08 [1688] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:36:33.663 +08 [18664] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:36:33.663 +08 [1764] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:36:33.666 +08 [9908] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:37:20.591 +08 [12784] ERROR:  new row for relation "ir_model_fields" violates check constraint "ir_model_fields_name_manual_field"
+2025-09-18 11:37:20.591 +08 [12784] DETAIL:  Failing row contains (7867, null, 85, null, null, 1, 1, kastam_registration_number, null, res.partner, null, null, char, null, manual, set null, [], null, null, null, null, null, {"en_US": "Kastam Registration Number"}, null, null, null, null, null, null, null, null, t, t, t, f, t, t, f, t, f, f, 2025-09-18 03:37:18.60825, 2025-09-18 03:37:18.60825, null, t).
+2025-09-18 11:37:20.591 +08 [12784] STATEMENT:  INSERT INTO "ir_model_fields" ("create_date", "create_uid", "domain", "field_description", "model", "model_id", "name", "on_delete", "sanitize", "sanitize_attributes", "sanitize_form", "sanitize_overridable", "sanitize_style", "sanitize_tags", "selectable", "state", "store", "strip_classes", "strip_style", "ttype", "website_form_blacklisted", "write_date", "write_uid") VALUES ('2025-09-18 03:37:18.608250', 1, '[]', '{"en_US": "Kastam Registration Number"}', 'res.partner', 85, 'kastam_registration_number', 'set null', true, true, true, false, false, true, true, 'manual', true, false, false, 'char', true, '2025-09-18 03:37:18.608250', 1) RETURNING "id"
+2025-09-18 11:40:39.943 +08 [12784] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:40:39.970 +08 [21772] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:40:39.972 +08 [10988] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:40:39.972 +08 [22680] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:40:39.974 +08 [688] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:40:39.974 +08 [9696] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 11:44:18.106 +08 [11220] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2025-09-18 11:44:18.106 +08 [11220] DETAIL:  Key (id)=(985) is still referenced from table "ir_ui_view".
+2025-09-18 11:44:18.106 +08 [11220] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (1057, 1056, 1058, 1055, 1045, 1043, 1017, 1040, 1028, 1019, 1027, 985, 1038, 976)
+2025-09-18 11:44:18.238 +08 [11220] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2025-09-18 11:44:18.238 +08 [11220] DETAIL:  Key (id)=(1045) is still referenced from table "ir_ui_view".
+2025-09-18 11:44:18.238 +08 [11220] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (1057, 1056, 1058, 1055, 1045, 1043)
+2025-09-18 11:44:18.351 +08 [11220] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2025-09-18 11:44:18.351 +08 [11220] DETAIL:  Key (id)=(1045) is still referenced from table "ir_ui_view".
+2025-09-18 11:44:18.351 +08 [11220] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (1057, 1056, 1058, 1055, 1045, 1043)
+2025-09-18 11:44:18.512 +08 [11220] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2025-09-18 11:44:18.512 +08 [11220] DETAIL:  Key (id)=(1045) is still referenced from table "ir_ui_view".
+2025-09-18 11:44:18.512 +08 [11220] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (1045, 1043)
+2025-09-18 11:44:18.807 +08 [11220] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2025-09-18 11:44:18.807 +08 [11220] DETAIL:  Key (id)=(985) is still referenced from table "ir_ui_view".
+2025-09-18 11:44:18.807 +08 [11220] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (1017, 985, 976)
+2025-09-18 11:44:18.967 +08 [11220] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2025-09-18 11:44:18.967 +08 [11220] DETAIL:  Key (id)=(985) is still referenced from table "ir_ui_view".
+2025-09-18 11:44:18.967 +08 [11220] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (985, 976)
+2025-09-18 12:01:35.127 +08 [11220] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 12:01:35.158 +08 [7608] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 12:01:35.162 +08 [22736] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 12:01:35.163 +08 [444] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 12:01:35.164 +08 [19616] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 12:01:35.165 +08 [17772] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 12:01:35.165 +08 [23100] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 12:01:35.166 +08 [23180] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 12:04:05.572 +08 [23576] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 12:04:05.587 +08 [19348] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 12:04:05.593 +08 [13608] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 12:04:05.594 +08 [22732] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 12:04:05.595 +08 [16316] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 12:04:05.595 +08 [23948] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 12:04:05.596 +08 [24056] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 12:04:05.596 +08 [24156] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 14:53:17.061 +08 [16952] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 14:53:17.069 +08 [5284] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 14:53:17.069 +08 [23464] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 14:53:17.070 +08 [11556] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 14:53:17.073 +08 [3176] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 14:55:09.030 +08 [18724] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 14:55:09.045 +08 [18076] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 14:55:09.047 +08 [12184] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 14:55:09.048 +08 [20424] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 14:55:09.049 +08 [23760] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 14:55:09.050 +08 [15052] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 14:55:09.051 +08 [15800] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:21:13.782 +08 [14872] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:21:13.784 +08 [15092] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:21:13.785 +08 [13228] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:21:13.786 +08 [7188] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:21:13.787 +08 [16624] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:21:13.788 +08 [13116] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:21:13.788 +08 [20936] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:24:07.288 +08 [5788] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:24:07.301 +08 [9620] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:24:07.304 +08 [17192] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:24:07.306 +08 [24636] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:24:07.307 +08 [5064] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:24:07.307 +08 [12448] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:24:07.308 +08 [21760] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:32:11.962 +08 [23028] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:32:11.995 +08 [14548] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:32:11.995 +08 [16764] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:32:11.995 +08 [3356] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:32:11.995 +08 [20592] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:32:11.996 +08 [12328] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 15:42:24.726 +08 [24904] ERROR:  insert or update on table "subscription_package" violates foreign key constraint "subscription_package_plan_id_fkey"
+2025-09-18 15:42:24.726 +08 [24904] DETAIL:  Key (plan_id)=(5) is not present in table "subscription_package_plan".
+2025-09-18 15:42:24.726 +08 [24904] STATEMENT:  INSERT INTO "subscription_package" ("applicant_name", "application_date", "company_id", "create_date", "create_uid", "currency_id", "current_stage", "is_closed", "member_type", "name", "partner_id", "plan_id", "proposer_company", "proposer_name", "seconder_company", "seconder_name", "stage_id", "user_id", "write_date", "write_uid") VALUES ('MUHAMMAD HAKIM BIN HUSIN', '2025-09-18', 1, '2025-09-18 07:42:23.894538', 1, 1, 'Draft', false, NULL, 'New', 9, 5, 1, 'yow6', 1, 'ini6', 1, 1, '2025-09-18 07:42:23.894538', 1) RETURNING "id"
+2025-09-18 15:43:15.569 +08 [24904] ERROR:  insert or update on table "subscription_package" violates foreign key constraint "subscription_package_plan_id_fkey"
+2025-09-18 15:43:15.569 +08 [24904] DETAIL:  Key (plan_id)=(5) is not present in table "subscription_package_plan".
+2025-09-18 15:43:15.569 +08 [24904] STATEMENT:  INSERT INTO "subscription_package" ("applicant_name", "application_date", "company_id", "create_date", "create_uid", "currency_id", "current_stage", "is_closed", "member_type", "name", "partner_id", "plan_id", "proposer_company", "proposer_name", "seconder_company", "seconder_name", "stage_id", "user_id", "write_date", "write_uid") VALUES ('MUHAMMAD HAKIM BIN HUSIN', '2025-09-18', 1, '2025-09-18 07:43:14.895560', 1, 1, 'Draft', false, NULL, 'New', 10, 5, 1, 'yow6', 1, 'ini6', 1, 1, '2025-09-18 07:43:14.895560', 1) RETURNING "id"
+2025-09-18 15:44:46.912 +08 [24904] ERROR:  insert or update on table "subscription_package" violates foreign key constraint "subscription_package_plan_id_fkey"
+2025-09-18 15:44:46.912 +08 [24904] DETAIL:  Key (plan_id)=(5) is not present in table "subscription_package_plan".
+2025-09-18 15:44:46.912 +08 [24904] STATEMENT:  INSERT INTO "subscription_package" ("applicant_name", "application_date", "company_id", "create_date", "create_uid", "currency_id", "current_stage", "is_closed", "member_type", "name", "partner_id", "plan_id", "proposer_company", "proposer_name", "seconder_company", "seconder_name", "stage_id", "user_id", "write_date", "write_uid") VALUES ('MUHAMMAD HAKIM BIN HUSIN', '2025-09-19', 1, '2025-09-18 07:44:46.201736', 1, 1, 'Draft', false, NULL, 'New', 11, 5, 1, 'yow6', 1, 'ini6', 1, 1, '2025-09-18 07:44:46.201736', 1) RETURNING "id"
+2025-09-18 16:50:07.449 +08 [24904] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 16:50:07.487 +08 [12136] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 16:50:07.487 +08 [8500] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 16:50:07.487 +08 [2152] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 16:58:59.920 +08 [14520] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2025-09-18 16:58:59.920 +08 [14520] DETAIL:  Key (id)=(1834) is still referenced from table "ir_ui_view".
+2025-09-18 16:58:59.920 +08 [14520] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (1906, 1905, 1907, 1904, 1894, 1892, 1866, 1889, 1877, 1868, 1876, 1834, 1887, 1825)
+2025-09-18 16:59:00.089 +08 [14520] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2025-09-18 16:59:00.089 +08 [14520] DETAIL:  Key (id)=(1894) is still referenced from table "ir_ui_view".
+2025-09-18 16:59:00.089 +08 [14520] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (1906, 1905, 1907, 1904, 1894, 1892)
+2025-09-18 16:59:00.146 +08 [14520] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2025-09-18 16:59:00.146 +08 [14520] DETAIL:  Key (id)=(1894) is still referenced from table "ir_ui_view".
+2025-09-18 16:59:00.146 +08 [14520] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (1906, 1905, 1907, 1904, 1894, 1892)
+2025-09-18 16:59:00.231 +08 [14520] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2025-09-18 16:59:00.231 +08 [14520] DETAIL:  Key (id)=(1894) is still referenced from table "ir_ui_view".
+2025-09-18 16:59:00.231 +08 [14520] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (1894, 1892)
+2025-09-18 16:59:00.403 +08 [14520] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2025-09-18 16:59:00.403 +08 [14520] DETAIL:  Key (id)=(1834) is still referenced from table "ir_ui_view".
+2025-09-18 16:59:00.403 +08 [14520] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (1866, 1834, 1825)
+2025-09-18 16:59:00.501 +08 [14520] ERROR:  update or delete on table "ir_ui_view" violates foreign key constraint "ir_ui_view_inherit_id_fkey" on table "ir_ui_view"
+2025-09-18 16:59:00.501 +08 [14520] DETAIL:  Key (id)=(1834) is still referenced from table "ir_ui_view".
+2025-09-18 16:59:00.501 +08 [14520] STATEMENT:  DELETE FROM "ir_ui_view" WHERE id IN (1834, 1825)
+2025-09-18 17:02:15.826 +08 [14520] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 17:02:15.889 +08 [8840] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 17:02:15.891 +08 [14892] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 17:02:15.892 +08 [11568] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 17:02:15.894 +08 [21000] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 17:02:15.896 +08 [19096] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 17:02:15.899 +08 [15404] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 17:02:15.904 +08 [22920] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 17:02:15.905 +08 [14356] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 17:03:57.422 +08 [17500] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 17:03:57.422 +08 [19660] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 17:03:57.424 +08 [15032] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 17:03:57.426 +08 [3952] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 17:03:57.427 +08 [1340] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 17:03:57.427 +08 [7948] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 17:03:57.428 +08 [16288] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 17:03:57.428 +08 [14604] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-18 17:05:01.367 +08 [6244] ERROR:  could not serialize access due to concurrent update
+2025-09-18 17:05:01.367 +08 [6244] STATEMENT:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (1)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        
+2025-09-18 18:06:58.128 +08 [9204] LOG:  received fast shutdown request
+2025-09-18 18:06:58.132 +08 [9204] LOG:  aborting any active transactions
+2025-09-18 18:06:58.140 +08 [9204] LOG:  background worker "logical replication launcher" (PID 16876) exited with exit code 1
+2025-09-18 18:06:58.148 +08 [18628] LOG:  shutting down
+2025-09-18 18:06:58.214 +08 [9204] LOG:  database system is shut down

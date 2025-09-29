@@ -1,0 +1,239 @@
+<odoo>
+
+    <!-- Form + Tree for Circular Files -->
+    <record id="view_circular_file_tree" model="ir.ui.view">
+        <field name="name">circular.file.tree</field>
+        <field name="model">circular.file</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="attachment_ids"/>
+                <field name="mysql_sequence"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_circular_file_form" model="ir.ui.view">
+        <field name="name">circular.file.form</field>
+        <field name="model">circular.file</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="attachment_ids"/>
+                        <field name="mysql_sequence" readonly="1"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+
+    <record id="circular_email_template" model="mail.template">
+        <field name="name">Circular Notification</field>
+        <field name="model_id" ref="sffla_circular_new.model_company_circular"/>
+        <field name="subject">Circular: {{ object.name }}</field>
+        <field name="email_from">{{ object.sender_email or user.email_formatted }}</field>
+        <field name="email_to">{{ object._get_recipient_emails() }}</field>
+        <field name="body_html"><![CDATA[
+            <p>Hello,</p>
+            <p>Please find below the new circular:</p>
+            <div t-out="object.name" t-options="{'widget': 'html'}"/>
+            <div t-out="object.body" t-options="{'widget': 'html'}"/>
+        ]]></field>
+
+    </record>
+
+    <record id="view_company_circular_form" model="ir.ui.view">
+        <field name="name">company.circular.form</field>
+        <field name="model">company.circular</field>
+        <field name="arch" type="xml">
+            <form string="Company Circular">
+                <header>
+                    <button name="action_publish" type="object" string="Publish" class="btn-primary"
+                            invisible="state != 'draft'"/>
+                    <button name="action_send_mail" type="object" string="Send Email" class="btn-secondary"
+                            invisible="state != 'published'"/>
+                    <field name="state" widget="statusbar" options="{'clickable': True}" statusbar_visible="draft,published,archived"/>
+                </header>
+
+                <sheet>
+                    <group>
+                        <field name="mysql_sequence"/>
+                        <field name="name"/>
+                        <field name="number"/>
+                        <field name="date"/>
+                        <field name="department_id"/>
+                        <field name="author_id"/>
+                        <field name="category"/>
+                        <field name="tag_ids" widget="many2many_tags"/>
+                        <field name="state" invisible="1"/>
+                        <field name="sender_name"/>
+                        <field name="sender_email"/>
+                    </group>
+
+                    <notebook>
+                        <page string="Content">
+                            <field name="body" widget="html"/>
+                            <field name="attachment_ids" widget="many2many_binary"/>
+                        </page>
+
+                        <page string="Recipients">
+                            <group>
+                                <field name="recipient_mode"/>
+                                <field name="recipient_count" readonly="1"/>
+                            </group>
+                            <group invisible="recipient_mode != 'manual'">
+                                <field name="partner_ids" widget="many2many_tags"/>
+                                <field name="employee_ids" widget="many2many_tags"/>
+                                <field name="user_ids" widget="many2many_tags"/>
+                            </group>
+                        </page>
+
+                        <page string="Acknowledgements" invisible="not ack_required">
+                            <group>
+                                <field name="ack_required"/>
+                                <field name="ack_deadline"/>
+                                <field name="ack_pending" readonly="1"/>
+                                <field name="ack_done" readonly="1"/>
+                            </group>
+                            <field name="ack_ids">
+                                <tree>
+                                    <field name="partner_id"/>
+                                    <field name="user_id"/>
+                                    <field name="state"/>
+                                    <field name="date_ack"/>
+                                    <field name="deadline"/>
+                                </tree>
+                            </field>
+                        </page>
+
+                        <page string="Circular Files">
+                            <field name="file_ids">
+                                <tree editable="bottom">
+                                    <field name="name"/>
+                                    <field name="mysql_sequence"/>
+                                    <field name="attachment_ids"/>
+                                </tree>
+                                <form>
+                                    <group>
+                                        <field name="name"/>
+                                        <field name="mysql_sequence"/>
+                                        <field name="attachment_ids" widget="many2many_binary"/>
+                                    </group>
+                                </form>
+                            </field>
+                        </page>
+
+                    </notebook>
+                </sheet>
+
+                <footer>
+                    <button string="Publish" name="action_publish" type="object"
+                            invisible="state != 'draft'" class="btn-primary"/>
+                    <button string="Archive" name="action_archive" type="object"
+                            invisible="state != 'published'" class="btn-secondary"/>
+                    <button string="Reset to Draft" name="action_reset_to_draft" type="object"
+                            invisible="state != 'archived'" class="btn-secondary"/>
+                    <button string="Close" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+      <!-- Tree View -->
+    <record id="view_company_circular_tree" model="ir.ui.view">
+        <field name="name">company.circular.tree</field>
+        <field name="model">company.circular</field>
+        <field name="arch" type="xml">
+            <tree string="Company Circulars" default_order="date desc">
+                <field name="date"/>
+                <field name="number"/>
+                <field name="name"/> <!-- Subject -->
+                <field name="category"/>
+                <field name="author_id"/>
+                <field name="state"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Tag Tree View -->
+    <record id="view_circular_tag_category_tree" model="ir.ui.view">
+        <field name="name">circular.tag.category.tree</field>
+        <field name="model">circular.tag.category</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="color"/>
+                <field name="description"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Tag Form View -->
+    <record id="view_circular_tag_category_form" model="ir.ui.view">
+        <field name="name">circular.tag.category.form</field>
+        <field name="model">circular.tag.category</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="color"/>
+                        <field name="description"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Action for Company Circular -->
+    <record id="action_company_circular" model="ir.actions.act_window">
+        <field name="name">Company Circulars</field>
+        <field name="res_model">company.circular</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create your first Company Circular
+            </p>
+        </field>
+    </record>
+
+    <record id="action_circular_tag_category" model="ir.actions.act_window">
+        <field name="name">Tag Categories</field>
+        <field name="res_model">circular.tag.category</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_circular_file" model="ir.actions.act_window">
+        <field name="name">Circular Files</field>
+        <field name="res_model">circular.file</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <!-- Top menu (optional, you can also put it under HR or Communication) -->
+    <menuitem id="menu_company_circular_root"
+              name="Company Circulars"
+              sequence="10"/>
+
+    <!-- Sub menu -->
+    <menuitem id="menu_company_circular"
+              name="Circulars"
+              parent="menu_company_circular_root"
+              action="action_company_circular"
+              sequence="10"/>
+
+     <menuitem id="menu_circular_tag_category"
+              name="Tag Categories"
+              parent="menu_company_circular_root"
+              action="action_circular_tag_category"/>
+
+    <menuitem id="menu_circular_file"
+              name="Circular Files"
+              parent="menu_company_circular_root"
+              action="action_circular_file"/>
+
+</odoo>

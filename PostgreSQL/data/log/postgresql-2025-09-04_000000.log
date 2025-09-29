@@ -1,0 +1,209 @@
+2025-09-09 15:33:29.653 +08 [5620] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-09 15:33:29.657 +08 [208] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-09 15:33:29.658 +08 [33148] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-09 15:33:29.659 +08 [1864] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-09 15:33:29.658 +08 [29184] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-09 15:33:29.659 +08 [18052] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-09 15:34:31.459 +08 [35012] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-09 15:34:31.462 +08 [38756] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-10 11:08:49.693 +08 [27696] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-10 11:08:49.695 +08 [49288] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-10 11:12:23.531 +08 [12080] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-10 11:12:23.531 +08 [43800] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-10 11:43:51.700 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:43:51.700 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/382/03) already exists.
+2025-09-10 11:43:51.700 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = 'SFFLA/OM/382/03', "partner_id" = 14299, "write_date" = '2025-09-10 03:43:47.633172', "write_uid" = 1 WHERE id IN (7619)
+2025-09-10 11:43:52.142 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:43:52.142 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/382/03) already exists.
+2025-09-10 11:43:52.142 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = 'SFFLA/OM/382/03', "partner_id" = 14299, "write_date" = '2025-09-10 03:43:47.633172', "write_uid" = 1 WHERE id IN (7619)
+2025-09-10 11:43:52.278 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:43:52.278 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/579/07) already exists.
+2025-09-10 11:43:52.278 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/579/07', "partner_id" = 14308, "write_date" = '2025-09-10 03:43:47.633172', "write_uid" = 1 WHERE id IN (7628)
+2025-09-10 11:43:53.024 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:43:53.024 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/546/07) already exists.
+2025-09-10 11:43:53.024 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/546/07', "partner_id" = 14367, "write_date" = '2025-09-10 03:43:47.633172', "write_uid" = 1 WHERE id IN (7687)
+2025-09-10 11:43:53.757 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:43:53.757 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/416/03) already exists.
+2025-09-10 11:43:53.757 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = 'SFFLA/OM/416/03', "partner_id" = 14429, "write_date" = '2025-09-10 03:43:47.633172', "write_uid" = 1 WHERE id IN (7749)
+2025-09-10 11:43:55.146 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:43:55.146 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/565/07) already exists.
+2025-09-10 11:43:55.146 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/565/07', "partner_id" = 14542, "write_date" = '2025-09-10 03:43:47.633172', "write_uid" = 1 WHERE id IN (7862)
+2025-09-10 11:43:55.505 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:43:55.505 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/404/03) already exists.
+2025-09-10 11:43:55.505 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = 'SFFLA/OM/404/03', "partner_id" = 14571, "write_date" = '2025-09-10 03:43:47.633172', "write_uid" = 1 WHERE id IN (7891)
+2025-09-10 11:43:55.969 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:43:55.969 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/536/07) already exists.
+2025-09-10 11:43:55.969 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/536/07', "partner_id" = 14609, "write_date" = '2025-09-10 03:43:47.633172', "write_uid" = 1 WHERE id IN (7929)
+2025-09-10 11:43:56.065 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:43:56.065 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/553/07) already exists.
+2025-09-10 11:43:56.065 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/553/07', "partner_id" = 14616, "write_date" = '2025-09-10 03:43:47.633172', "write_uid" = 1 WHERE id IN (7936)
+2025-09-10 11:43:56.574 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:43:56.574 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/385/03) already exists.
+2025-09-10 11:43:56.574 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = 'SFFLA/OM/385/03', "partner_id" = 14653, "write_date" = '2025-09-10 03:43:47.633172', "write_uid" = 1 WHERE id IN (7973)
+2025-09-10 11:43:56.802 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:43:56.802 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/500/05) already exists.
+2025-09-10 11:43:56.802 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2005', "membership_number" = 'SFFLA/OM/500/05', "partner_id" = 14672, "write_date" = '2025-09-10 03:43:47.633172', "write_uid" = 1 WHERE id IN (7992)
+2025-09-10 11:43:57.089 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:43:57.089 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/533/07) already exists.
+2025-09-10 11:43:57.089 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/533/07', "partner_id" = 14692, "write_date" = '2025-09-10 03:43:47.633172', "write_uid" = 1 WHERE id IN (8012)
+2025-09-10 11:48:26.878 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:48:26.878 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/382/03) already exists.
+2025-09-10 11:48:26.878 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = 'SFFLA/OM/382/03', "partner_id" = 14299, "write_date" = '2025-09-10 03:48:21.416697', "write_uid" = 1 WHERE id IN (7619)
+2025-09-10 11:48:27.209 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:48:27.209 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/382/03) already exists.
+2025-09-10 11:48:27.209 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = 'SFFLA/OM/382/03', "partner_id" = 14299, "write_date" = '2025-09-10 03:48:21.416697', "write_uid" = 1 WHERE id IN (7619)
+2025-09-10 11:48:27.316 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:48:27.316 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/579/07) already exists.
+2025-09-10 11:48:27.316 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/579/07', "partner_id" = 14308, "write_date" = '2025-09-10 03:48:21.416697', "write_uid" = 1 WHERE id IN (7628)
+2025-09-10 11:48:27.930 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:48:27.930 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/546/07) already exists.
+2025-09-10 11:48:27.930 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/546/07', "partner_id" = 14367, "write_date" = '2025-09-10 03:48:21.416697', "write_uid" = 1 WHERE id IN (7687)
+2025-09-10 11:48:28.553 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:48:28.553 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/416/03) already exists.
+2025-09-10 11:48:28.553 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = 'SFFLA/OM/416/03', "partner_id" = 14429, "write_date" = '2025-09-10 03:48:21.416697', "write_uid" = 1 WHERE id IN (7749)
+2025-09-10 11:48:29.688 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:48:29.688 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/565/07) already exists.
+2025-09-10 11:48:29.688 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/565/07', "partner_id" = 14542, "write_date" = '2025-09-10 03:48:21.416697', "write_uid" = 1 WHERE id IN (7862)
+2025-09-10 11:48:29.991 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:48:29.991 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/404/03) already exists.
+2025-09-10 11:48:29.991 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = 'SFFLA/OM/404/03', "partner_id" = 14571, "write_date" = '2025-09-10 03:48:21.416697', "write_uid" = 1 WHERE id IN (7891)
+2025-09-10 11:48:30.392 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:48:30.392 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/536/07) already exists.
+2025-09-10 11:48:30.392 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/536/07', "partner_id" = 14609, "write_date" = '2025-09-10 03:48:21.416697', "write_uid" = 1 WHERE id IN (7929)
+2025-09-10 11:48:30.476 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:48:30.476 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/553/07) already exists.
+2025-09-10 11:48:30.476 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/553/07', "partner_id" = 14616, "write_date" = '2025-09-10 03:48:21.416697', "write_uid" = 1 WHERE id IN (7936)
+2025-09-10 11:48:30.859 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:48:30.859 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/385/03) already exists.
+2025-09-10 11:48:30.859 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = 'SFFLA/OM/385/03', "partner_id" = 14653, "write_date" = '2025-09-10 03:48:21.416697', "write_uid" = 1 WHERE id IN (7973)
+2025-09-10 11:48:31.063 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:48:31.063 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/500/05) already exists.
+2025-09-10 11:48:31.063 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2005', "membership_number" = 'SFFLA/OM/500/05', "partner_id" = 14672, "write_date" = '2025-09-10 03:48:21.416697', "write_uid" = 1 WHERE id IN (7992)
+2025-09-10 11:48:31.278 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:48:31.278 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/533/07) already exists.
+2025-09-10 11:48:31.278 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/533/07', "partner_id" = 14692, "write_date" = '2025-09-10 03:48:21.416697', "write_uid" = 1 WHERE id IN (8012)
+2025-09-10 11:53:16.023 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:53:16.023 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/382/03) already exists.
+2025-09-10 11:53:16.023 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = 'SFFLA/OM/382/03', "partner_id" = 14299, "write_date" = '2025-09-10 03:53:13.080459', "write_uid" = 1 WHERE id IN (7619)
+2025-09-10 11:53:16.340 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:53:16.340 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/382/03) already exists.
+2025-09-10 11:53:16.340 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = 'SFFLA/OM/382/03', "partner_id" = 14299, "write_date" = '2025-09-10 03:53:13.080459', "write_uid" = 1 WHERE id IN (7619)
+2025-09-10 11:53:16.446 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:53:16.446 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/579/07) already exists.
+2025-09-10 11:53:16.446 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/579/07', "partner_id" = 14308, "write_date" = '2025-09-10 03:53:13.080459', "write_uid" = 1 WHERE id IN (7628)
+2025-09-10 11:53:17.030 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:53:17.030 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/546/07) already exists.
+2025-09-10 11:53:17.030 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/546/07', "partner_id" = 14367, "write_date" = '2025-09-10 03:53:13.080459', "write_uid" = 1 WHERE id IN (7687)
+2025-09-10 11:53:17.668 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:53:17.668 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/416/03) already exists.
+2025-09-10 11:53:17.668 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = 'SFFLA/OM/416/03', "partner_id" = 14429, "write_date" = '2025-09-10 03:53:13.080459', "write_uid" = 1 WHERE id IN (7749)
+2025-09-10 11:53:18.885 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:53:18.885 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/565/07) already exists.
+2025-09-10 11:53:18.885 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/565/07', "partner_id" = 14542, "write_date" = '2025-09-10 03:53:13.080459', "write_uid" = 1 WHERE id IN (7862)
+2025-09-10 11:53:19.227 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:53:19.227 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/404/03) already exists.
+2025-09-10 11:53:19.227 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = 'SFFLA/OM/404/03', "partner_id" = 14571, "write_date" = '2025-09-10 03:53:13.080459', "write_uid" = 1 WHERE id IN (7891)
+2025-09-10 11:53:19.734 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:53:19.734 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/536/07) already exists.
+2025-09-10 11:53:19.734 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/536/07', "partner_id" = 14609, "write_date" = '2025-09-10 03:53:13.080459', "write_uid" = 1 WHERE id IN (7929)
+2025-09-10 11:53:19.827 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:53:19.827 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/553/07) already exists.
+2025-09-10 11:53:19.827 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/553/07', "partner_id" = 14616, "write_date" = '2025-09-10 03:53:13.080459', "write_uid" = 1 WHERE id IN (7936)
+2025-09-10 11:53:20.212 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:53:20.212 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/385/03) already exists.
+2025-09-10 11:53:20.212 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = 'SFFLA/OM/385/03', "partner_id" = 14653, "write_date" = '2025-09-10 03:53:13.080459', "write_uid" = 1 WHERE id IN (7973)
+2025-09-10 11:53:20.415 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:53:20.415 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/500/05) already exists.
+2025-09-10 11:53:20.415 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2005', "membership_number" = 'SFFLA/OM/500/05', "partner_id" = 14672, "write_date" = '2025-09-10 03:53:13.080459', "write_uid" = 1 WHERE id IN (7992)
+2025-09-10 11:53:20.644 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:53:20.644 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/533/07) already exists.
+2025-09-10 11:53:20.644 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/533/07', "partner_id" = 14692, "write_date" = '2025-09-10 03:53:13.080459', "write_uid" = 1 WHERE id IN (8012)
+2025-09-10 11:54:12.910 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:54:12.910 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/382/03) already exists.
+2025-09-10 11:54:12.910 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = 'SFFLA/OM/382/03', "partner_id" = 14299, "write_date" = '2025-09-10 03:54:05.921969', "write_uid" = 1 WHERE id IN (7619)
+2025-09-10 11:54:13.224 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:54:13.224 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/382/03) already exists.
+2025-09-10 11:54:13.224 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = 'SFFLA/OM/382/03', "partner_id" = 14299, "write_date" = '2025-09-10 03:54:05.921969', "write_uid" = 1 WHERE id IN (7619)
+2025-09-10 11:54:13.326 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:54:13.326 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/579/07) already exists.
+2025-09-10 11:54:13.326 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/579/07', "partner_id" = 14308, "write_date" = '2025-09-10 03:54:05.921969', "write_uid" = 1 WHERE id IN (7628)
+2025-09-10 11:54:13.931 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:54:13.931 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/546/07) already exists.
+2025-09-10 11:54:13.931 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/546/07', "partner_id" = 14367, "write_date" = '2025-09-10 03:54:05.921969', "write_uid" = 1 WHERE id IN (7687)
+2025-09-10 11:54:14.565 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:54:14.565 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/416/03) already exists.
+2025-09-10 11:54:14.565 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = 'SFFLA/OM/416/03', "partner_id" = 14429, "write_date" = '2025-09-10 03:54:05.921969', "write_uid" = 1 WHERE id IN (7749)
+2025-09-10 11:54:15.707 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:54:15.707 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/565/07) already exists.
+2025-09-10 11:54:15.707 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/565/07', "partner_id" = 14542, "write_date" = '2025-09-10 03:54:05.921969', "write_uid" = 1 WHERE id IN (7862)
+2025-09-10 11:54:16.011 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:54:16.011 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/404/03) already exists.
+2025-09-10 11:54:16.011 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = 'SFFLA/OM/404/03', "partner_id" = 14571, "write_date" = '2025-09-10 03:54:05.921969', "write_uid" = 1 WHERE id IN (7891)
+2025-09-10 11:54:16.403 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:54:16.403 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/536/07) already exists.
+2025-09-10 11:54:16.403 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/536/07', "partner_id" = 14609, "write_date" = '2025-09-10 03:54:05.921969', "write_uid" = 1 WHERE id IN (7929)
+2025-09-10 11:54:16.486 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:54:16.486 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/553/07) already exists.
+2025-09-10 11:54:16.486 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/553/07', "partner_id" = 14616, "write_date" = '2025-09-10 03:54:05.921969', "write_uid" = 1 WHERE id IN (7936)
+2025-09-10 11:54:16.892 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:54:16.892 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/385/03) already exists.
+2025-09-10 11:54:16.892 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = 'SFFLA/OM/385/03', "partner_id" = 14653, "write_date" = '2025-09-10 03:54:05.921969', "write_uid" = 1 WHERE id IN (7973)
+2025-09-10 11:54:17.095 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:54:17.095 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/500/05) already exists.
+2025-09-10 11:54:17.095 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2005', "membership_number" = 'SFFLA/OM/500/05', "partner_id" = 14672, "write_date" = '2025-09-10 03:54:05.921969', "write_uid" = 1 WHERE id IN (7992)
+2025-09-10 11:54:17.310 +08 [45220] ERROR:  duplicate key value violates unique constraint "res_members_unique_membership_number"
+2025-09-10 11:54:17.310 +08 [45220] DETAIL:  Key (membership_number)=(SFFLA/OM/533/07) already exists.
+2025-09-10 11:54:17.310 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2007', "membership_number" = 'SFFLA/OM/533/07', "partner_id" = 14692, "write_date" = '2025-09-10 03:54:05.921969', "write_uid" = 1 WHERE id IN (8012)
+2025-09-10 11:58:13.881 +08 [45220] ERROR:  null value in column "membership_number" violates not-null constraint
+2025-09-10 11:58:13.881 +08 [45220] DETAIL:  Failing row contains (7590, 14270, null, 1, 1, null, active, SFFLA/OM/1004/21, null, 2021, 2025-09-08 10:25:42.473358, 2025-09-10 03:58:08.915202).
+2025-09-10 11:58:13.881 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2021', "membership_number" = NULL, "partner_id" = 14270, "write_date" = '2025-09-10 03:58:08.915202', "write_uid" = 1 WHERE id IN (7590)
+2025-09-10 11:58:13.903 +08 [45220] ERROR:  null value in column "membership_number" violates not-null constraint
+2025-09-10 11:58:13.903 +08 [45220] DETAIL:  Failing row contains (7590, 14270, null, 1, 1, null, active, SFFLA/OM/1004/21, null, 2021, 2025-09-08 10:25:42.473358, 2025-09-10 03:58:08.915202).
+2025-09-10 11:58:13.903 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2021', "membership_number" = NULL, "partner_id" = 14270, "write_date" = '2025-09-10 03:58:08.915202', "write_uid" = 1 WHERE id IN (7590)
+2025-09-10 11:58:13.921 +08 [45220] ERROR:  null value in column "membership_number" violates not-null constraint
+2025-09-10 11:58:13.921 +08 [45220] DETAIL:  Failing row contains (7591, 14271, null, 1, 1, null, active, SFFLA/OM/841/15, null, 2015, 2025-09-08 10:25:42.473358, 2025-09-10 03:58:08.915202).
+2025-09-10 11:58:13.921 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2015', "membership_number" = NULL, "partner_id" = 14271, "write_date" = '2025-09-10 03:58:08.915202', "write_uid" = 1 WHERE id IN (7591)
+2025-09-10 11:58:13.938 +08 [45220] ERROR:  null value in column "membership_number" violates not-null constraint
+2025-09-10 11:58:13.938 +08 [45220] DETAIL:  Failing row contains (7592, 14272, null, 1, 1, null, active, SFFLA/OM/414/03, null, 2003, 2025-09-08 10:25:42.473358, 2025-09-10 03:58:08.915202).
+2025-09-10 11:58:13.938 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2003', "membership_number" = NULL, "partner_id" = 14272, "write_date" = '2025-09-10 03:58:08.915202', "write_uid" = 1 WHERE id IN (7592)
+2025-09-10 11:58:13.957 +08 [45220] ERROR:  null value in column "membership_number" violates not-null constraint
+2025-09-10 11:58:13.957 +08 [45220] DETAIL:  Failing row contains (7593, 14273, null, 1, 1, null, active, SFFLA/OM/102/91, null, 1991, 2025-09-08 10:25:42.473358, 2025-09-10 03:58:08.915202).
+2025-09-10 11:58:13.957 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '1991', "membership_number" = NULL, "partner_id" = 14273, "write_date" = '2025-09-10 03:58:08.915202', "write_uid" = 1 WHERE id IN (7593)
+2025-09-10 11:58:13.975 +08 [45220] ERROR:  null value in column "membership_number" violates not-null constraint
+2025-09-10 11:58:13.975 +08 [45220] DETAIL:  Failing row contains (7594, 14274, null, 1, 1, null, active, SFFLA/OM/955/19, null, 2019, 2025-09-08 10:25:42.473358, 2025-09-10 03:58:08.915202).
+2025-09-10 11:58:13.975 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2019', "membership_number" = NULL, "partner_id" = 14274, "write_date" = '2025-09-10 03:58:08.915202', "write_uid" = 1 WHERE id IN (7594)
+2025-09-10 11:58:13.994 +08 [45220] ERROR:  null value in column "membership_number" violates not-null constraint
+2025-09-10 11:58:13.994 +08 [45220] DETAIL:  Failing row contains (7595, 14275, null, 1, 1, null, active, SFFLA/OM/954/19, null, 2019, 2025-09-08 10:25:42.473358, 2025-09-10 03:58:08.915202).
+2025-09-10 11:58:13.994 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2019', "membership_number" = NULL, "partner_id" = 14275, "write_date" = '2025-09-10 03:58:08.915202', "write_uid" = 1 WHERE id IN (7595)
+2025-09-10 11:58:14.013 +08 [45220] ERROR:  null value in column "membership_number" violates not-null constraint
+2025-09-10 11:58:14.013 +08 [45220] DETAIL:  Failing row contains (7596, 14276, null, 1, 1, null, active, SFFLA/OM/927/18, null, 2018, 2025-09-08 10:25:42.473358, 2025-09-10 03:58:08.915202).
+2025-09-10 11:58:14.013 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2018', "membership_number" = NULL, "partner_id" = 14276, "write_date" = '2025-09-10 03:58:08.915202', "write_uid" = 1 WHERE id IN (7596)
+2025-09-10 11:58:14.031 +08 [45220] ERROR:  null value in column "membership_number" violates not-null constraint
+2025-09-10 11:58:14.031 +08 [45220] DETAIL:  Failing row contains (7597, 14277, null, 1, 1, null, active, SFFLA/OM/100/91, null, 1991, 2025-09-08 10:25:42.473358, 2025-09-10 03:58:08.915202).
+2025-09-10 11:58:14.031 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '1991', "membership_number" = NULL, "partner_id" = 14277, "write_date" = '2025-09-10 03:58:08.915202', "write_uid" = 1 WHERE id IN (7597)
+2025-09-10 11:58:14.049 +08 [45220] ERROR:  null value in column "membership_number" violates not-null constraint
+2025-09-10 11:58:14.049 +08 [45220] DETAIL:  Failing row contains (7598, 14278, null, 1, 1, null, active, SFFLA/OM/803/13, null, 2013, 2025-09-08 10:25:42.473358, 2025-09-10 03:58:08.915202).
+2025-09-10 11:58:14.049 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2013', "membership_number" = NULL, "partner_id" = 14278, "write_date" = '2025-09-10 03:58:08.915202', "write_uid" = 1 WHERE id IN (7598)
+2025-09-10 11:58:14.068 +08 [45220] ERROR:  null value in column "membership_number" violates not-null constraint
+2025-09-10 11:58:14.068 +08 [45220] DETAIL:  Failing row contains (7599, 14279, null, 1, 1, null, active, SFFLA/OM/309/01, null, 2001, 2025-09-08 10:25:42.473358, 2025-09-10 03:58:08.915202).
+2025-09-10 11:58:14.068 +08 [45220] STATEMENT:  UPDATE "res_members" SET "join_year" = '2001', "membership_number" = NULL, "partner_id" = 14279, "write_date" = '2025-09-10 03:58:08.915202', "write_uid" = 1 WHERE id IN (7599)
+2025-09-10 18:20:13.813 +08 [32612] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-10 18:20:13.813 +08 [10320] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-10 18:20:13.813 +08 [18996] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-09-10 18:20:13.815 +08 [5836] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

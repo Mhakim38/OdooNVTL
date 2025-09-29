@@ -1,0 +1,43 @@
+<odoo>
+    <record id="view_partner_form_inherit_full_address_only" model="ir.ui.view">
+        <field name="name">res.partner.form.inherit.full.address.only</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+
+            <!-- Hide standard address fields -->
+            <xpath expr="//field[@name='street']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='street2']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='city']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='state_id']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='zip']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='country_id']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+
+            <!-- Add your custom fields -->
+            <xpath expr="//field[@name='vat']" position="after">
+                <field name="reg_full_address" placeholder="Registration full address..."/>
+                <field name="biz_full_address" placeholder="Business full address..."/>
+            </xpath>
+
+            <!-- Add circular_email under email -->
+            <xpath expr="//field[@name='email']" position="after">
+                <group>
+                        <field name="circular_email" placeholder="Circular email..."/>
+                </group>
+            </xpath>
+
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- First define the tree view -->
+    <record id="view_subscription_package_interview_tree" model="ir.ui.view">
+        <field name="name">subscription.package.interview.tree</field>
+        <field name="model">subscription.package.interview</field>
+        <field name="arch" type="xml">
+            <tree string="Interviews">
+                <field name="subscription_id"/>
+                <field name="interviewer_id"/>
+                <field name="interview_date"/>
+                <field name="status"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Form View with Open Calendar Event button -->
+    <record id="view_subscription_package_interview_form" model="ir.ui.view">
+        <field name="name">subscription.package.interview.form</field>
+        <field name="model">subscription.package.interview</field>
+        <field name="arch" type="xml">
+            <form string="Interview">
+                <header>
+                    <!-- Button: Open Calendar Event -->
+                    <button name="action_open_calendar_event"
+                            type="object"
+                            string="Open Calendar Event"
+                            class="btn-primary"
+                    />
+                </header>
+                <sheet>
+                    <group>
+                        <field name="subscription_id"/>
+                        <field name="interviewer_id"/>
+                        <field name="interview_date"/>
+                        <field name="status"/>
+                        <field name="notes"/>
+                        <field name="event_id" invisible="1"/>
+                    </group>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers"/>
+                    <field name="activity_ids" widget="mail_activity"/>
+                    <field name="message_ids" widget="mail_thread"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <!-- Action that references the tree view -->
+    <record id="action_subscription_package_interview" model="ir.actions.act_window">
+        <field name="name">Interviews</field>
+        <field name="res_model">subscription.package.interview</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="view_subscription_package_interview_tree"/>
+    </record>
+
+    <!-- Inherit the subscription package form to add the button -->
+    <record id="view_subscription_package_form_inherit_interview_button" model="ir.ui.view">
+        <field name="name">subscription.package.form.interview.button</field>
+        <field name="model">subscription.package</field>
+        <field name="inherit_id" ref="subscription_package.subscription_package_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet//div[@class='oe_button_box']" position="inside">
+                <button name="%(sffla_checklist.action_subscription_package_interview)d"
+                        type="action"
+                        class="oe_stat_button"
+                        icon="fa-comments"
+                        invisible="stage_id == 'interview'"
+                        context="{'search_default_subscription_id': active_id, 'default_subscription_id': active_id}">
+                    <field name="interview_count" widget="statinfo" string="Interviews"/>
+                </button>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="view_subscription_package_form_interview_buttons" model="ir.ui.view">
+        <field name="name">subscription.package.form.interview.buttons</field>
+        <field name="model">subscription.package</field>
+        <field name="inherit_id" ref="subscription_package.subscription_package_view_form"/>
+        <field name="arch" type="xml">
+            <header>
+                <button name="action_interview_completed"
+                        type="object"
+                        string="Interview Completed"
+                        class="btn-success"
+                        invisible="stage_category != 'interview'"/>
+            </header>
+        </field>
+    </record>
+
+
+    <record id="view_subscription_package_form_committee_buttons" model="ir.ui.view">
+        <field name="name">subscription.package.form.committee.buttons</field>
+        <field name="model">subscription.package</field>
+        <field name="inherit_id" ref="subscription_package.subscription_package_view_form"/>
+        <field name="arch" type="xml">
+            <header>
+                <!-- Approve button -->
+                <button name="action_approve_committee"
+                        type="object"
+                        string="Approve"
+                        class="btn-success"
+                        invisible="stage_category != 'committee'"/>
+
+                <!-- Reject button -->
+                <button name="action_reject_committee"
+                        type="object"
+                        string="Reject"
+                        class="btn-danger"
+                        invisible="stage_category != 'committee'"/>
+            </header>
+        </field>
+    </record>
+
+
+
+
+    <!-- Menu item -->
+    <menuitem id="menu_subscription_package_interview"
+          name="Interviews"
+          parent="subscription_package.subscription_menu_root"
+          action="action_subscription_package_interview"/>
+
+</odoo>
