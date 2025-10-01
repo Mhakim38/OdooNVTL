@@ -1,4 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_verify_checklist_user,access.verify.checklist.user,model_subscription_package_verify_checklist,base.group_user,1,1,1,0
-access_verify_checklist_manager,access.verify.checklist.manager,model_subscription_package_verify_checklist,base.group_system,1,1,1,1
-access_subscription_package_interview_user,access_subscription_package_interview_user,model_subscription_package_interview,base.group_user,1,1,1,1

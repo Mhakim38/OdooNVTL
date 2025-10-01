@@ -1,7 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_company_circular_user,company.circular user,model_company_circular,base.group_user,1,1,1,0
-access_company_circular_manager,company.circular manager,model_company_circular,base.group_system,1,1,1,1
-access_company_circular_ack_user,company.circular.ack user,model_company_circular_ack,base.group_user,1,1,0,0
-access_company_circular_ack_manager,company.circular.ack manager,model_company_circular_ack,base.group_system,1,1,1,1
-access_circular_file_user,circular.file.user,model_circular_file,base.group_user,1,1,1,1
-access_circular_file_manager,circular.file.manager,model_circular_file,base.group_system,1,1,1,1
