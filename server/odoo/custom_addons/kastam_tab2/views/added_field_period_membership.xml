@@ -1,0 +1,24 @@
+<odoo>
+  <data>
+
+    <!-- Add Subscription Dates to Membership Tab -->
+    <record id="view_partner_form_membership_add_subscription_dates"
+            model="ir.ui.view">
+      <field name="name">res.partner.form.membership.add.subscription.dates</field>
+      <field name="model">res.partner</field>
+      <!-- inherit the existing Membership tab view -->
+      <field name="inherit_id" ref="sffla_ordinary.view_partner_form_inherit_membership_tab"/>
+      <field name="arch" type="xml">
+
+        <!-- Insert a new group inside the Membership page without referencing other fields -->
+        <xpath expr="//page[@name='membership_tab']/group" position="inside">
+            <!-- Example fields, adjust as needed -->
+            <field name="subscription_date_start"/>
+            <field name="subscription_next_invoice_date"/>
+        </xpath>
+
+      </field>
+    </record>
+
+  </data>
+</odoo>

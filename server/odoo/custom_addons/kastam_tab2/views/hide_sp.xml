@@ -1,0 +1,16 @@
+<odoo>
+  <data>
+    <record id="view_partner_hide_sales_purchases_tab" model="ir.ui.view">
+      <field name="name">res.partner.hide.sales.purchases.tab</field>
+      <field name="model">res.partner</field>
+      <!-- Inherit the correct base view -->
+      <field name="inherit_id" ref="base.view_partner_form"/>
+      <field name="arch" type="xml">
+        <!-- Match exactly the page name -->
+        <xpath expr="//page[@name='sales_purchases']" position="attributes">
+          <attribute name="invisible">1</attribute>
+        </xpath>
+      </field>
+    </record>
+  </data>
+</odoo>

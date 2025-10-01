@@ -1,0 +1,85 @@
+<odoo>
+    <record id="view_subscription_package_form_inherit" model="ir.ui.view">
+        <field name="name">subscription.package.form.inherit</field>
+        <field name="model">subscription.package</field>
+        <field name="inherit_id" ref="subscription_package.subscription_package_view_form"/>
+        <field name="arch" type="xml">
+
+            <!-- Insert a new page after Other Info -->
+            <xpath expr="//page[@name='other_info']" position="after">
+                <page string="Membership" name="membership_info">
+
+                    <!-- Membership details side by side -->
+                    <group string="Membership Details">
+                        <group>
+                            <field name="plan_id"/>
+                            <field name="principal_id"/>
+                            <field name="member_id_old"/>
+                            <field name="partner_member_id_new" readonly="1"/>
+                        </group>
+                        <group>
+                            <field name="applicant_name"/>
+                            <field name="application_date"/>
+                            <field name="ncd"/>
+                            <field name="member_date_start"/>
+                            <field name="member_date_end"/>
+                        </group>
+                    </group>
+
+                    <!-- Proposer and Seconder side by side -->
+                    <group string="Proposer and Seconder">
+                        <group>
+                            <field name="proposer_company"/>
+                            <field name="proposer_name"/>
+                            <field name="proposer_id_old"/>
+                            <field name="proposer_id_new" readonly="1"/>
+                        </group>
+                        <group>
+                            <field name="seconder_company"/>
+                            <field name="seconder_name"/>
+                            <field name="seconder_id_old"/>
+                            <field name="seconder_id_new" readonly="1"/>
+                        </group>
+                    </group>
+
+                </page>
+            </xpath>
+
+        </field>
+    </record>
+
+    <record id="view_subscription_package_form_inherit_documents" model="ir.ui.view">
+        <field name="name">subscription.package.form.documents</field>
+        <field name="model">subscription.package</field>
+        <field name="inherit_id" ref="subscription_package.subscription_package_view_form"/>
+        <field name="arch" type="xml">
+            <notebook position="inside">
+                <page string="Documents to Verify">
+                    <group string="Documents">
+                        <field name="approval_letter" filename="approval_letter_filename" widget="binary"/>
+                        <field name="approval_letter_filename" invisible="1"/>
+
+                        <field name="audited_account" filename="audited_account_filename" widget="binary"/>
+                        <field name="audited_account_filename" invisible="1"/>
+
+                        <field name="roc_rob" filename="roc_rob_filename" widget="binary"/>
+                        <field name="roc_rob_filename" invisible="1"/>
+
+                        <field name="form_9" filename="form_9_filename" widget="binary"/>
+                        <field name="form_9_filename" invisible="1"/>
+
+                        <field name="form_13" filename="form_13_filename" widget="binary"/>
+                        <field name="form_13_filename" invisible="1"/>
+
+                        <field name="form_49" filename="form_49_filename" widget="binary"/>
+                        <field name="form_49_filename" invisible="1"/>
+
+                        <field name="form_24" filename="form_24_filename" widget="binary"/>
+                        <field name="form_24_filename" invisible="1"/>
+                    </group>
+                </page>
+            </notebook>
+        </field>
+    </record>
+</odoo>
+
