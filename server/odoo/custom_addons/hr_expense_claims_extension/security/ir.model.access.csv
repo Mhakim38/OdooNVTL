@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_hr_expense_claim,hr.expense.claim,model_hr_expense,,1,1,1,1
+access_expense_new_customer_line,expense.new.customer.line,model_expense_new_customer_line,,1,1,1,1
+access_expense_commission_line,expense.commission.line,model_expense_commission_line,,1,1,1,1
+access_expense_toll_line,expense.toll.line,model_expense_toll_line,,1,1,1,1
+access_expense_entertainment_line,expense.entertainment.line,model_expense_entertainment_line,,1,1,1,1
+access_expense_outstation_line,expense.outstation.line,model_expense_outstation_line,,1,1,1,1
+access_expense_petrol_line,expense.petrol.line,model_expense_petrol_line,,1,1,1,1
+access_expense_car_allowance_line,expense.car.allowance.line,model_expense_car_allowance_line,,1,1,1,1

@@ -1,0 +1,207 @@
+<odoo>
+    <record id="view_hr_expense_form_custom" model="ir.ui.view">
+        <field name="name">hr.expense.form.claims</field>
+        <field name="model">hr.expense</field>
+        <field name="inherit_id" ref="hr_expense.hr_expense_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet" position="inside">
+                <separator string="Claims Details"/>
+                <notebook>
+                    <page string="Claims Info">
+                        <group name="info">
+                            <field name="sales_type" string="Sales Type" widget="radio" options="{'horizontal': true}"/>
+                            <field name="customer_type" string="Customer Type" widget="radio" options="{'horizontal': true}"/>
+
+                            <separator string="Commissions Summary"/>
+                            <field name="total_gross_sales" string="Total Gross Sales" readonly="1"/>
+                            <field name="commission_claimed" string="Commissions" readonly="1"/>
+                            <field name="new_customer_incentive" string="New Customer Incentives" readonly="1"/>
+
+                            <separator string="Claims Summary"/>
+                            <field name="total_claimable" string="Total Claims" readonly="1"/>
+
+                            <field name="toll_claim" string="Toll Claims" readonly="1"/>
+                            <field name="entertainment_claimed" string="Entertainment Claims" readonly="1" invisible="sales_type == 'indoor'"/>
+                            <field name="petrol_local" string="Petrol (Local) Claims" readonly="1" invisible="sales_type == 'indoor'"/>
+                            <field name="petrol_outstation" string="Petrol (Outstation) Claims" readonly="1" invisible="sales_type == 'indoor'"/>
+                            <field name="accommodation_total" string="Accommodation Claims" readonly="1" invisible="sales_type == 'indoor'"/>
+                            <field name="car_allowance_claimed" string="Car Allowance Claims" readonly="1" invisible="sales_type == 'indoor'"/>
+
+
+                        </group>
+                    </page>
+
+                    <page string="New Customer Incentive" invisible="customer_type != 'new'">
+                        <group>
+                            <field name="new_customer_incentive" string="Total Incentive" readonly="1"/>
+                            <field name="new_customer_incentive_claimed" invisible="1"/>
+                            <separator string=""/>
+
+                            <field name="new_customer_ids">
+                                <tree editable="bottom">
+                                    <field name="customer_id"/>
+                                </tree>
+                            </field>
+                            <field name="new_customer_attachment_ids" widget="many2many_binary" string="Proof of Invoice"/>
+                        </group>
+                    </page>
+
+                    <page string="Commissions">
+                    <group>
+
+                        <field name="total_gross_sales" string="Total Gross Profit" readonly="1"/>
+                        <field name="commission" readonly="1"/>
+                        <field name="commission_claimed" invisible="1"/>
+                        <separator string=""/>
+
+                        <field name="commission_line_ids">
+                            <tree editable="bottom">
+                                <field name="customer_id"/>
+                                <field name="invoice_total"/>
+                                <field name="invoice_amount"/>
+                            </tree>
+                        </field>
+                        <field name="commission_attachment_ids" widget="many2many_binary" string="Proof of Invoices"/>
+                    </group>
+                </page>
+
+
+
+
+                    <page string="Toll Claims">
+                        <group>
+                            <field name="toll_claim" readonly="1"/>
+                            <field name="toll_line_ids">
+                                <tree editable="bottom">
+                                    <field name="date"/>
+                                    <field name="destination"/>
+                                    <field name="client_id"/>
+                                    <field name="mileage"/>
+                                    <field name="toll_location"/>
+                                    <field name="amount"/>
+                                </tree>
+                            </field>
+                            <field name="toll_attachment_ids" widget="many2many_binary" string="Proof of Toll"/>
+                        </group>
+
+                        <!-- Outstation -->
+                        <group>
+                            <!-- Boolean toggle -->
+                            <field name="outstation_toll" widget="boolean_toggle"/>
+
+                            <!-- Subform hanya muncul bila tick Yes -->
+                            <field name="outstation_toll_line_ids" invisible="not outstation_toll">
+                                <tree editable="bottom">
+                                    <field name="date"/>
+                                    <field name="destination"/>
+                                    <field name="client_id"/>
+                                    <field name="mileage"/>
+                                    <field name="toll_location"/>
+                                    <field name="amount"/>
+                                </tree>
+                                <form>
+                                    <group>
+                                        <field name="expense_id" invisible="1"/>
+                                        <field name="currency_id" invisible="1"/>
+
+                                        <field name="date"/>
+                                        <field name="destination"/>
+                                        <field name="client_id"/>
+                                        <field name="mileage"/>
+                                        <field name="toll_location"/>
+                                        <field name="amount"/>
+                                    </group>
+                                </form>
+                            </field>
+                        </group>
+                    </page>
+
+
+                    <page string="Entertainment Claims">
+                        <group>
+                            <field name="entertainment_max_claim" readonly="1"/>
+                            <field name="entertainment_claim" readonly="1"/>
+                            <field name="entertainment_line_ids">
+                                <tree editable="bottom">
+                                    <field name="date"/>
+                                    <field name="venue"/>
+                                    <field name="location"/>
+                                    <field name="receipt_number"/>
+                                    <field name="client_id"/>
+                                    <field name="amount"/>
+                                </tree>
+                            </field>
+                            <field name="entertainment_attachment_ids" widget="many2many_binary" string="Proof of Entertainment"/>
+                        </group>
+                    </page>
+
+                    <page string="Petrol Claims" invisible="sales_type == 'indoor'">
+                        <group>
+                            <field name="petrol_local"/>
+                            <field name="petrol_outstation"/>
+                        </group>
+
+                        <group>
+                            <separator string="Petrol Claims"/>
+                            <field name="petrol_line_ids">
+                                <tree editable="bottom">
+                                    <field name="date"/>
+                                    <field name="location"/>
+                                    <field name="petrol_station"/>
+                                    <field name="petrol_type"/>
+                                    <field name="amount"/>
+                                </tree>
+                            </field>
+                            <field name="petrol_attachment_ids" widget="many2many_binary" string="Petrol Receipts"/>
+                        </group>
+                    </page>
+
+                    <page string="Accommodation" invisible="sales_type == 'indoor'">
+                        <group>
+                            <field name="accommodation_total" readonly="1"/>
+                        </group>
+
+                        <group>
+                            <separator string="Outstation Accommodation Details"/>
+                            <field name="outstation_line_ids">
+                                <tree editable="bottom">
+                                    <field name="date"/>
+                                    <field name="hotel"/>
+                                    <field name="location"/>
+                                    <field name="num_days"/>
+                                    <field name="purpose"/>
+                                    <field name="amount"/>
+                                </tree>
+                            </field>
+                            <field name="accommodation_attachment_ids" widget="many2many_binary" string="Hotel Receipts"/>
+                        </group>
+                    </page>
+
+                    <page string="Car Allowance" invisible="sales_type == 'indoor'">
+                        <group>
+                            <field name="car_allowance_max" readonly="1"/>
+                            <field name="car_allowance" readonly="1" invisible="1"/>
+                            <field name="car_allowance_claimed" readonly="1"/>
+                        </group>
+
+                        <group>
+                            <separator string="Car Allowance Details"/>
+                            <field name="car_allowance_line_ids">
+                                <tree editable="bottom">
+                                    <field name="date"/>
+                                    <field name="workshop"/>
+                                    <field name="location"/>
+                                    <field name="receipt_no"/>
+                                    <field name="details"/>
+                                    <field name="amount"/>
+                                </tree>
+                            </field>
+                            <field name="car_allowance_attachment_ids" widget="many2many_binary" string="Proof of Car Allowance"/>
+                        </group>
+
+                    </page>
+                </notebook>
+            </xpath>
+        </field>
+    </record>
+</odoo>
